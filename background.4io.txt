@@ -1,0 +1,741 @@
+<!doctype html> <html> <head>
+<!--
+███╗░░░███╗███████╗██████╗░██╗░█████╗░██╗░░░░░░█████╗░██████╗░ 
+████╗░████║██╔════╝██╔══██╗██║██╔══██╗██║░░░░░██╔══██╗██╔══██╗
+██╔████╔██║█████╗░░██║░░██║██║███████║██║░░░░░███████║██████╦╝
+██║╚██╔╝██║██╔══╝░░██║░░██║██║██╔══██║██║░░░░░██╔══██║██╔══██╗
+██║░╚═╝░██║███████╗██████╔╝██║██║░░██║███████╗██║░░██║██████╦╝
+╚═╝░░░░░╚═╝╚══════╝╚═════╝░╚═╝╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝╚═════╝░
+Hi there, curious developer!. 
+Interested in working with a growing company with a startup vibe. 
+Visit: aHR0cHM6Ly93d3cubWVkaWFsYWIubGEvbGV2ZXItc2l0ZS1vcGVuaW5ncwo=
+-->
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preload" href="//wa1.narvii.com/static/dist/js/main.5c7311889.js" as="script"/>
+ <title>𝙰𝖗𝖆𝐝𝖎𝖆 | Buscando Amistades Amino Amino</title>  <meta name="description" content="Buscando Amistades Amino"> <meta property="description" content="Buscando Amistades Amino"/> <meta property="og:description" content="Buscando Amistades Amino"/>   <meta name="keyword" content="Buscando Amistades Amino,Amigos,Parejas,Amistades,Buscando Pareja,Novia,Novio,Amino,Anime,BAA,AA"/>  <meta property="og:title" content="𝙰𝖗𝖆𝐝𝖎𝖆 | Buscando Amistades Amino Amino"/> <meta property="og:site_name" content="Buscando Amistades Amino | aminoapps.com"/>  <meta property="og:image" content="http://cm1.narvii.com/8228/5642938113dca2cfe197ad50665959cd4e61215e_00.jpg"/> <meta property="twitter:image" content="http://cm1.narvii.com/8228/5642938113dca2cfe197ad50665959cd4e61215e_00.jpg"/> <meta property="shareaholic:image" content="http://cm1.narvii.com/8228/5642938113dca2cfe197ad50665959cd4e61215e_00.jpg"/>  <meta name="theme-color" content="hsla(212, 70%, 35%, 1.000000)"/> 
+    <link rel="shortcut icon" href="//wa1.narvii.com/static/img/favicon.ico?v=1">
+        <link rel="canonical" href="https://aminoapps.com/c/baa/page/user/aradia/BQGW_MkoHbfd7DdpnENR6NkMGrdgjLMgYj5t1"> <meta name="apple-itunes-app" content="app-id=1115565187, app-argument=`narviiapp://x196698407/description`"> <link rel="manifest" href="https://aminoapps.com/android-manifest.json?deeplink=narviiapp%3A//x196698407/description"> 
+    <!-- ANA SDK needs to be loaded before Carbon -->
+    <script async src="https://js.media-lab.ai/wana.2.1.1b.js"></script>
+<script type='text/javascript'>
+    // window.ana_debug = true;
+
+    /**
+     * Returns the first child of an HTML element
+     * @param {Element} element
+     */
+    function getFirstChild(element) {
+        return element.children[0];
+    }
+
+    document.addEventListener('ANAReady', () => {
+        wanaLoad();
+    });
+
+    const wanaLoad = () => {
+        const gptOptions = {
+            enableSingleRequest: true,
+            sandboxIframe: true,
+            collapseEmptyDivs: false,
+            globalTargeting: {
+                'domain': window.location.hostname,
+                'youtube': 'n',
+            },
+        };
+
+        window.ANAWeb = new ANAWeb({ gptOptions });
+    }
+
+    /**
+     * Creates an Assembly ad slot
+     * @deprecated Use createAssemblyAdSlot instead.
+     * By passing an object as parameter instead of individual paramenters, you can
+     * easily extend, remove or change the parameters by adding, removing or changing
+     * new keys to the object.
+     */
+    const createSlot = (slotName, elementID, adUnitID, dimensions, refresh = false, maxWidth = undefined) => {
+        window[slotName] = window.ANAWeb.createSlot(SlotTypeEnum.GOOGLE, {
+            elementID,
+            adUnitID,
+            dimensions,
+            collapseBeforeFill: false,
+            collapseIfNoFill: false,
+        });
+
+        window[slotName].refresh();
+
+        if (refresh) {
+            refreshInterval(slotName, maxWidth);
+        }
+    }
+
+    /**
+     * Creates an Assembly ad slot.
+     * @see https://whisper.atlassian.net/wiki/spaces/ASTI/pages/4972118021/2.0.12#createSlot(slotType%2C-slotOptions)-BannerSlot
+     * @param { Object } options
+     * @param { string } options.slotName A reference of the slot created is stored under window with the slotName as key
+     * @param { string } options.elementID The ID of the HTML element the ad created will be placed
+     * @param { string } options.adUnitID The GAM ad unit id, eg: `/114106652/wshh_desktop_hp_btf_3`
+     * @param { number[][] } options.dimensions Array of arrays to map to supported sizes
+     * @param { boolean | undefined } options.refresh If true, the refresh function will be executed for the given slot
+     * @param { number | undefined } options.maxWidth ???
+     * @param { boolean | undefined } options.collapseBeforeFill If true the element will remain collapsed unless the ad fills
+     * @param { boolean | undefined } options.collapseIfNoFill If true the the element will collapse if the ad attempt does not fill
+     */
+    function createAssemblyAdSlot(options) {
+        const {
+            slotName,
+            elementID,
+            adUnitID,
+            dimensions,
+            refresh = false,
+            maxWidth = undefined,
+            collapseBeforeFill = false,
+            collapseIfNoFill = false,
+        } = options;
+
+        if (!slotName || typeof slotName !== "string") {
+            throw new Error('slotName (string) is required');
+        }
+
+        if (!elementID || typeof elementID !== "string") {
+            throw new Error('elementID (string) is required');
+        }
+
+        if (!adUnitID || typeof adUnitID !== "string") {
+            throw new Error('adUnitID (string) is required');
+        }
+
+        if (!dimensions || !Array.isArray(dimensions)) {
+            /** @TODO Probably we should do a better validation here */
+            throw new Error('dimensions (number[][]) is required');
+        }
+
+        window[slotName] = window.ANAWeb.createSlot(SlotTypeEnum.GOOGLE, {
+            elementID,
+            adUnitID,
+            dimensions,
+            collapseBeforeFill,
+            collapseIfNoFill,
+        });
+
+        window[slotName].refresh();
+
+        if (refresh) {
+            refreshInterval(slotName, maxWidth);
+        }
+    }
+
+    const createMobileSlots = () => {
+        var adBlockContainers = [...document.getElementsByClassName("ad-block-container-mobile")];
+        adBlockContainers.forEach((container, index) => {
+            const element = getFirstChild(container);
+
+            if (element.id === `slot-mobile-${index}`) {
+                return;
+            }
+
+            element.id = `slot-mobile-${index}`;
+            element.style.textAlign = 'center';
+
+            window.createSlot(`slotMobile${index}`, `slot-mobile-${index}`, '/114106652/amino_300x250_atf_mw', [[300, 250], [300, 600]]);
+        });
+    }
+
+    /**
+     * Create ad slots for ad containers between posts items in the Community feed.
+     */
+    function fillInBetweenPostsAdSlots() {
+        var slotContainers = [...document.getElementsByClassName("post-list-item--desktop-ad")];
+
+        slotContainers.forEach((container, index) => {
+            const element = getFirstChild(container);
+            const elementID = `slot-desktop-${index}`;
+
+            // If the slot is already created, skip it.
+            if (element.id === elementID) {
+                return;
+            }
+
+            element.id = elementID;
+            element.style.textAlign = "center";
+            const adUnitID = "/114106652/amino_desktop_728x90";
+
+            window.createAssemblyAdSlot({
+                slotName: `slotDesktop${index}`,
+                elementID,
+                adUnitID,
+                dimensions: [[728, 90]],
+                collapseBeforeFill: true,
+                collapseIfNoFill: true,
+            });
+        })
+    }
+
+    window.createSlot = createSlot;
+    window.createAssemblyAdSlot = createAssemblyAdSlot;
+    window.createMobileSlots = createMobileSlots;
+    window.fillInBetweenPostsAdSlots = fillInBetweenPostsAdSlots;
+
+    const refreshInterval = (slotName, maxWidth) => {
+        window[`${slotName}Refresh`] = setInterval(() => {
+            if (maxWidth && window.innerWidth < maxWidth) {
+                return;
+            }
+
+            window[slotName].refresh();
+        }, 15000);
+    };
+
+    // Every debounce needs to have it's method because of overplapping
+    const scrollListener = (className, id) => window.addEventListener("scroll", () => {
+        if (id === 'slot-right-aside') {
+            return debounceInvokeRight(className, id);
+        }
+
+        debounceInvoke(className, id);
+    }, { passive: true });
+
+    const isInViewport = (element, topAdd = false) => {
+        const rect = element.getBoundingClientRect();
+
+        if (topAdd) {
+            return (rect.bottom >= 50);
+        }
+
+        return (
+            // header height is approx. 50px;
+            rect.top >= 50 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+        );
+    }
+
+    const debounce = (func, wait) => {
+        let timeout;
+
+        return function executedFunction(...args) {
+            const later = () => {
+                clearTimeout(timeout);
+                func(...args);
+            };
+
+            clearTimeout(timeout);
+            timeout = setTimeout(later, wait);
+        };
+    };
+
+    const debounceInvoke = debounce(function (className, id) {
+        runOnScroll(className, id);
+    }, 1000);
+
+    const debounceInvokeRight = debounce(function (className, id) {
+        runOnScroll(className, id);
+    }, 1000);
+
+    const runOnScroll = (className, id) => {
+        const elementsWithGivenClass = document.getElementsByClassName(className);
+
+        for (let i = 0; i < elementsWithGivenClass.length; i++) {
+            const element = elementsWithGivenClass[i];
+
+            if (isInViewport(element)) {
+                if (getFirstChild(element).id === id) {
+                    break;
+                }
+
+                let itemToMove;
+                let placeToMove;
+
+                [...elementsWithGivenClass].find((item, index) => {
+                    if (getFirstChild(item).id === id) {
+                        itemToMove = item;
+                        placeToMove = index;
+                    }
+                });
+
+                element.appendChild(getFirstChild(itemToMove));
+
+                itemToMove.appendChild(getFirstChild(element));
+
+                getFirstChild(element).style.display = "none";
+
+                if (id === 'slot-right-aside') {
+                    clearInterval(window.slotRightAsideRefresh);
+                    refreshInterval('slotRightAside', 1207);
+                    window.slotRightAside.refresh();
+                }
+
+                if (id === 'slot-banner') {
+                    window.slotBanner.refresh();
+                }
+            }
+        }
+    };
+
+    window.scrollListener = scrollListener;
+    window.isInViewport = isInViewport;
+</script>
+    <!-- Carbon Analytics -->
+<!-- From docs: For best results and full compatibility, we recommend that the tag is deployed as early as possible in the <head> of each page.
+-->
+
+<!-- Carbon Analytics -->
+<script>
+    !function(a,l,b,c,k,s,t,g,A){a.CustomerConnectAnalytics=k,a[k]=a[k]||function(){
+        (a[k].q=a[k].q||[]).push(arguments)},g=l.createElement(b),A=l.getElementsByTagName(b)[0],
+        g.type="text/javascript",g.async=!0,g.src=c+"?id="+s+"&parentId="+t,A.parentNode.insertBefore(g,A)
+    }(window,document,"script","//carbon-cdn.ccgateway.net/script","cca",window.location.hostname,"e8a16a4090");
+</script>
+<!-- END Carbon Analytics -->
+
+<!-- GAM Publisher Tag Setup -->
+<script>
+    document.addEventListener('ANAReady', () => {
+        !function(t, gt){
+            gt = t || {};
+            gt.cmd = t.cmd || [];
+            gt.cmd.push(function () {
+                if (gt.pubads().getTargeting('carbon_segment').length === 0) {
+                    var carbon = JSON.parse(window.localStorage.getItem('ccRealtimeData'));
+                    gt.pubads().setTargeting('carbon_segment', carbon ? carbon.audiences.map(function (i){ return i.id; }) : []);
+                }
+                if (gt.pubads().getTargeting('cc-iab-class-id').length === 0) {
+                    var iabIds = JSON.parse(window.localStorage.getItem('ccContextualData'));
+                    gt.pubads().setTargeting('cc-iab-class-id', iabIds);
+                }
+            });
+        }(window.googletag);
+    });
+</script>
+<!-- END GAM Publisher Tag Setup -->
+            <link rel="stylesheet" href="//wa1.narvii.com/static/dist/css/desktop-style.84b5051ea.css">
+            <link rel="stylesheet" href="//wa1.narvii.com/static/dist/css/misc-desktop-style.011b4f43f.css">
+
+          <script>
+            window.ServerData = window.ServerData || {};
+        </script>
+  <style type="text/css" class="custom">
+    body { --community-color: hsla(212, 70%, 47%, 1.000000); }
+    .community-bg { background-color: hsla(212, 70%, 47%, 1.000000); }
+    .community-color, .community-color:hover, .community-color:visited, .community-color:link, .community-color:active {
+        color: hsla(212, 70%, 47%, 1.000000); }
+    .community-bg-dark { background-color: hsla(212, 70%, 35%, 1.000000); }
+    .community-color-dark, .community-color-dark:hover, .community-color-dark:visited, .community-color-dark:link, .community-color-dark:active { color: hsla(212, 70%, 35%, 1.000000); }
+    *::selection { background: hsla(212, 70%, 47%, 1.000000); color: white; }
+
+        @media (min-width: 640px) { body { background-image: url(//pm1.narvii.com/8162/b55fa6f2240b045c52a901f5d06036a039e5afa2r5-438-701_00.jpg); } }
+    </style>  <style>
+    @media (min-width: 1206px) {
+        section.global-body {
+            max-width: 1186px;
+        }
+
+        .home-section-nav .home-fixed-container {
+            max-width: 577px;
+        }
+
+        .global-header>.content .container {
+            max-width: 1186px;
+        }
+
+        section.post-list.new-post-list>.list-item {
+            max-width: 280px;
+        }
+    }
+
+    @media (min-width: 1493px) {
+        section.global-body {
+            max-width: 1483px;
+        }
+
+        .home-section-nav .home-fixed-container {
+            max-width: 873px;
+        }
+
+        .global-header>.content .container {
+            max-width: 1483px;
+        }
+    }
+</style>         <script type="application/ld+json">{"@context": "http://schema.org", "@type": "Article", "headline": "\ud835\ude70\ud835\udd97\ud835\udd86\ud835\udc1d\ud835\udd8e\ud835\udd86", "image": {"@type": "ImageObject", "url": "http://pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_00.jpg"}}</script>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <!-- Start Alexa Certify Javascript -->
+    <script type="text/javascript">
+    _atrk_opts = { atrk_acct:"cTwYt1zDGU20kU", domain:"aminoapps.com",dynamic: true};
+    (function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://certify-js.alexametrics.com/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+    </script>
+
+    <noscript><img src="https://certify.alexametrics.com/atrk.gif?account=cTwYt1zDGU20kU" style="display:none" height="1" width="1" alt="" /></noscript>
+    <!-- End Alexa Certify Javascript -->
+<script>
+    var _comscore = _comscore || [];
+    _comscore.push({ c1: "2", c2: "22489583" });
+
+    (function () {
+        var s = document.createElement("script");
+        var el = document.getElementsByTagName("script")[0];
+
+        s.async = true;
+        s.src = "https://sb.scorecardresearch.com/cs/22489583/beacon.js";
+        el.parentNode.insertBefore(s, el);
+    })();
+</script> <noscript>
+    <img src=https://sb.scorecardresearch.com/p?c1=2&amp;c2=22489583&amp;cv=3.6.0&amp;cj=1>
+</noscript></head>
+<body class="community-profile-body  not-mobile "
+      data-vce="body"
+>
+<div id="top"></div>
+<header class="global-header">
+    <div class="content community-bg">
+        <div class="container">
+ <nav class="global-nav "> <ul class="content">  <li class="nav-item nav-search"> <div class="nav-search-container global-dropdown-anchor " data-vce="search-btn" data-always-open="false"> <form class="search-input-container"> <input maxlength="50" autocomplete="false" class="nav-search-input" type="search" placeholder="Search Amino" value="" required /> <div class="clear-button"> <i class="amino-icon amino-icon-x"></i> </div> <span class="cancel-search">Cancel</span> </form> <svg width="25" height="25" xmlns="http://www.w3.org/2000/svg" class="svg-icon amino-icon amino-icon-search" xmlns:xlink="http://www.w3.org/1999/xlink"><g transform="translate(.8 .6)" fill-rule="evenodd"><path d="M9.902 17.457c-4.128 0-7.5-3.372-7.5-7.5 0-4.129 3.372-7.501 7.5-7.501 4.129 0 7.501 3.372 7.501 7.5 0 4.129-3.372 7.501-7.5 7.501zm7.799-1.43a9.883 9.883 0 0 0 2.13-6.124C19.832 4.453 15.38 0 9.903 0 4.425 0 0 4.452 0 9.903c0 5.45 4.452 9.902 9.902 9.902a9.998 9.998 0 0 0 6.125-2.132l5.963 5.963 1.7-1.7-5.99-5.908z"/></g></svg> <div class="global-dropdown-container search-dropdown-container amino-logo-animation"></div> </div> </li>  <li class="nav-item"> <a class="nav-link block" href="https://aminoapps.com/explore/" title="Explore" data-refer-type="site_navbar_icon_explore" >  <svg width="25" height="25" class="explore-icon svg-icon amino-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill-rule="evenodd"><g transform="translate(.6 .8)"><path d="M12 21.666c-5.33 0-9.666-4.336-9.666-9.666S6.67 2.334 12 2.334 21.666 6.67 21.666 12 17.33 21.666 12 21.666m8.482-18.144l-.004-.004C18.182 1.25 15.171 0 12 0 5.383 0 0 5.383 0 12c0 3.171 1.25 6.182 3.522 8.482C5.818 22.75 8.829 24 12 24c3.17 0 6.182-1.25 8.482-3.522C22.75 18.182 24 15.171 24 12c0-3.17-1.25-6.182-3.518-8.478"/></g><path d="M13.4 14.4c-.897 0-1.6-.527-1.6-1.2 0-.673.703-1.2 1.6-1.2.897 0 1.6.527 1.6 1.2 0 .673-.703 1.2-1.6 1.2m6.197-6.99a.838.838 0 0 0-.967-.101l-7.287 3.697-4.23 6.391c-.175.286-.148.62.09.823.147.13.322.18.529.18a.743.743 0 0 0 .411-.102l7.314-3.697 4.23-6.368c.175-.282.148-.615-.09-.823"/></g></svg>  <span class="nav-text">Explore</span> </a> </li>  <li class="nav-item nav-user less-margin">  <a class="nav-link block pointer" data-vce="btn-popup" data-popup="login" data-popup-close-by-overlay="1" data-popup-source="Top Nav" data-event-category="Sign In Popup" data-event-label="top_nav" data-tea-event="sign_in_popup" data-tea-source="Top Nav" > Sign In </a>  </li>  <li class="nav-item nav-download"> <a class="btn btn-download community-color" href="/get/amino/" data-event-category="NavBar Get App"> Get App </a> </li>  </ul> </nav>            <div class="amino-logo-container">
+                <a class="amino-logo" href="https://aminoapps.com" data-refer-type="site_navbar_amino_logo">
+                        <img src="//wa1.narvii.com/static/img/amino-logo-white.svg?v=2" class="logo">
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <!-- This space will be replaced in v2/pages/home.html by a block with the same name -->
+
+<section class="global-body">
+        <div class="global-bg custom-bg container-fixed-bg  img"></div>
+ <section class="community-content"> <nav class="home-section-nav" data-vce="community-nav"> <div class="home-fixed-container"> <a class="home-nav-home community-color" href="/c/baa/home/" data-refer-type="community_nav_home" > <i class="amino-icon amino-icon-home"></i> </a> <ul class="unstyled content" data-vce="headroom" data-headroom-offset="200">  <li class="section-item  community-color "> <a class="block" href="/c/baa/" data-refer-type="community_nav"> <i class="amino-icon amino-icon-star"></i> <span class="label">Featured</span> </a> </li>  <li class="section-item  community-color "> <a class="block" href="/c/baa/recent/" data-refer-type="community_nav"> <i class="amino-icon amino-icon-clock"></i> <span class="label">Latest</span> </a> </li>  <li class="section-item  community-color "> <a class="block" href="/c/baa/wiki/" data-refer-type="community_nav"> <i class="amino-icon amino-icon-favs"></i> <span class="label">Wiki</span> </a> </li>  <li class="section-item  community-color "> <a class="block" href="/c/baa/polls/" data-refer-type="community_nav"> <i class="amino-icon amino-icon-poll"></i> <span class="label">Polls</span> </a> </li>  <li class="section-item  community-color "> <a class="block" href="/c/baa/quizzes/" data-refer-type="community_nav"> <i class="amino-icon amino-icon-quiz"></i> <span class="label">Quizzes</span> </a> </li>  <li class="section-item  community-color "> <a class="block" href="/c/baa/shared-folder/" data-refer-type="community_nav"> <i class="amino-icon amino-icon-folder"></i> <span class="label">Shared Folder</span> </a> </li>  <li class="section-item  community-color  hide-on-mobile"> <a class="block" href="/c/baa/info/" data-refer-type="community_nav"> <i class="amino-icon amino-icon-info"></i> <span class="label">About</span> </a> </li>  <li class="section-item"></li> <li class="section-item"></li> </ul>  <a class="overflow-hint" href="javascript:void(0);" data-tea-event="community_nav_scroll" data-tea-type="Next" data-event-category="Community Nav Scroll" data-event-action="next"> <i class="amino-icon amino-icon-rightward community-color"></i> </a>  </div> </nav>  <section class="main-page content user-normal"> <div class="ad-block-banner-container"> <section class="ad-block" style="width:728px; height:90px;"> </section> </div> <script type='text/javascript'>
+    document.getElementsByClassName("ad-block-banner-container")[0].children[0].id = 'slot-banner';
+
+    document.addEventListener('ANAReady', () => {
+        if (window.innerWidth > 1490) {
+            if (window.slotBanner) {
+                return;
+            }
+
+            window.createSlot('slotBanner', 'slot-banner', '/114106652/amino_728x90_atf_desktop_1', [[728, 90]]);
+        
+            window.scrollListener('ad-block-banner-container', "slot-banner");
+        }
+    });
+</script>   <article class="post main-post user-profile-page">  <div class="user-canopy community-bg j-followee-number-container">   <div class="user-header hide-blocker" data-vce="fade-image-switcher" data-author-uid="3d114a68-8217-48c0-9bc3-5a57c166949f"> <img class="switch show img-cover" src="//pm1.narvii.com/8162/c0b65f35fcb6719823e596e1e86159931f9350e6r1-477-643v2_hq.jpg" alt="user selected cover"/>  </div>  <div class="user-profile"> <a class="user-link"  href="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw"  data-refer-type="user_profile_page"> <img class="user-avatar img-cover" data-vce="image"  src="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" /> </a>  <h1 class="user-name"> <a class="link"  href="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw"  data-vce="rich-content" data-refer-type="user_profile_page"> <span class="user-name-truncate">  𝙰𝖗𝖆𝐝𝖎𝖆  </span>  </a> </h1>  <div class="user-ranking"> <i class="level-badge level-badge-14"></i> <div class="reputation-bar"> Amigo Experto! <span class="rank-progress" style="width:114.598px"></span> </div> </div> </div>   <div class="user-interaction hide-blocker hide-blocked" data-author-uid="3d114a68-8217-48c0-9bc3-5a57c166949f">   <a class="follow-btn pointer block"  data-login-motivation="Sign in to follow 𝙰𝖗𝖆𝐝𝖎𝖆." data-vce="pre-login-btn" data-true-form="user/follow-btn" data-join-icons="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" data-join-motivation="follow-pc" data-event-label="follow" data-source="Follow"  data-follow-event-label="profile_page" data-followee="3d114a68-8217-48c0-9bc3-5a57c166949f" data-follower="" > <span class="following"> <i class="follow-icon"></i> Following </span> <span class="friends"> <i class="follow-icon"></i> Friends </span> <span class="stranger"> <i class="follow-icon fa fa-plus"></i> Follow </span> <span class="unfollow"> Unfollow </span> <i class="fa fa-circle-o-notch fa-spin"></i> </a><a class="action-btn plain pointer"  data-vce="pre-login-btn" data-source="Start 1-1 Chat" data-login-motivation="Sign in to chat with 𝙰𝖗𝖆𝐝𝖎𝖆." data-true-form="user/chat-btn" data-join-icons="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" data-join-motivation="private-chat" data-event-label="start_1-1_chat"  data-uid="3d114a68-8217-48c0-9bc3-5a57c166949f" data-chat-privilege="" data-follow-status="0" data-disabled-text="This member has disabled chat invite requests." data-invite-text="Send Chat Invite" data-placeholder-text="Invite message (optional)" data-send-text="Send" >  <span class="normal-text"> <img class="chat-icon" src="//wa1.narvii.com/static/img/chat-icon.svg"/> Chat </span> <i class="fa fa-circle-o-notch fa-spin"></i> </a> </div>  <div class="counter-info hide-blocker" data-author-uid="3d114a68-8217-48c0-9bc3-5a57c166949f"> <div class="counter rep"> <div class="number">18155</div> <div class="label">Reputation</div> </div> <div class="counter following"> <div class="number">9</div> <div class="label">Following</div> </div> <div class="counter followers"> <div class="number j-followee-number-target">933</div> <div class="label">Followers</div> </div> </div> <div class="counter-info-backdrop hide-blocker" data-author-uid="3d114a68-8217-48c0-9bc3-5a57c166949f"></div>  </div>   <section class="user-bio hide-blocker" data-author-uid="3d114a68-8217-48c0-9bc3-5a57c166949f"> <header class="title"> <h3 class="title community-color">  Bio  <time class="muted date">Since Jan 2018 (4 Years 80 Days)</time>  </h3> </header> <div class="bio-body overflowing" data-vce="toggle-content" data-threshold="350">  <div class="empty-content muted">Seems like this user has nothing to say about themself.</div>  </div> </section>   <section class="user-wiki"> <header class="title"> <h3 class="title community-color"> Wiki Entries (1) </h3> </header> <div class="carousel-container" data-vce="carousel" data-arrow-offset="-15"> <div class="community-bg arrow arrow-left"> <i class="fa fa-chevron-left"></i> </div> <div class="community-bg arrow arrow-right"> <i class="fa fa-chevron-right"></i> </div> <ul class="wiki-list unstyled scroll-container" data-vce="rich-content">  <li class="wiki-item ">  <a class="block" href="https://aminoapps.com/c/baa/page/item/hechizo-para-recordar-tu-vida-pasada/bNwa_XdninIBk8Pp5BD2v6DqeEVMG1n7J6r" data-refer-type="profile_user_posts">  <img class="img-cover wiki-cover" alt="user uploaded image" data-vce="image" decoding="async" id="media-5b402f9a"  src="//pm1.narvii.com/6878/e9a94f37748e51cf75021b2c459e6c28ccaebad3r1-824-1064v2_128.jpg"  >  <div class="label"> Hechizo Para Recordar Tu Vida Pasada: </div> </a>  </li>  </ul> </div> </section>  <section class="user-posts hide-blocker" data-vce="tab" data-author-uid="3d114a68-8217-48c0-9bc3-5a57c166949f"> <header class="title"> <h3 class="title community-color tab-toggles"> <a class="tab-toggle active" href="javascript:void 0;"> Posts (30)</a> <a class="tab-toggle" href="javascript:void 0; "> Wall (2)</a> </h3> </header> <div class="tab-pane active">    <section class="post-list new-post-list" data-vce="list" data-list-name="post-list" data-max-page="2" data-cur-page="1" data-read-more="100" data-base="/c/baa/page/user/aradia/BQGW_MkoHbfd7DdpnENR6NkMGrdgjLMgYj5t1">      <div class="list-item">    <article class="post post-blog" data-vce="rich-content">  <section class="info">  <a class="nickname block" href="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw" data-refer-type="profile_user_posts"> <img class="author avatar img-cover" data-vce="image"  src="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" > </a> <div class="post-author"> <a class="nickname block" href="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw" data-refer-type="profile_user_posts"> <span class="name-label"> 𝙰𝖗𝖆𝐝𝖎𝖆 </span>  <i class="level-badge level-badge-14"></i>  </a> <div class="pretty-date">4 hours ago</div> </div>  </section>  <a class="block" href="https://aminoapps.com/c/baa/page/blog/buscando-amistad/j0rb_64GFKugqjpYxlWglpVLrVdojJpgnjl" data-refer-type="profile_user_posts"  > <section class="desc"> <h3 class="title">  Buscando Amistad  </h3>  <div class="content">  Hola Chic@s como están un saludo cordial comentarles que pueden aquí hacer  amig@s subir sus presentaciones así forman una amistad.
+
+
+ No subir contenido+18  violan las normas de amino y de la comunidad. 
+
+17/04/2022 </div>  </section>  <div class="gallery ">  <img class="img-cover gallery-item" alt="user uploaded image" data-vce="image" decoding="async" id="media-e4baada3" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pa1.narvii.com/8264/2c6afe0c6e62722bc8d9d255a662154d6b2f4e77r1-270-480_00.gif"  >  </div>  </a>  <footer class="actions">  <div class="action pointer" data-vce="btn-like" data-vote-value="0" data-href="https://aminoapps.com/c/baa/page/blog/buscando-amistad/j0rb_64GFKugqjpYxlWglpVLrVdojJpgnjl"   data-target-ndc-id="196698407" data-target-post-type="blog" data-target-post-id="2f97185d-ff5b-4477-abd5-b2232457c9b0" data-target-log-type="blog"  data-join-icons="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" data-join-deeplink="narviiapp://x196698407/blog/2f97185d-ff5b-4477-abd5-b2232457c9b0" data-join-motivation="like" data-join-motivation-like="page" data-join-copytext="https://aminoapps.com/c/baa/page/blog/buscando-amistad/j0rb_64GFKugqjpYxlWglpVLrVdojJpgnjl" data-login-motivation="Sign in to like this post." data-source="Like Post" data-event-label="like_post" data-submit-event-label="feed_card" > <i class="amino-icon amino-icon-heart"></i> <i class="amino-icon amino-icon-heart-o"></i> <span class="num">4</span> </div> <a class="action pointer block"  href="https://aminoapps.com/c/baa/page/blog/buscando-amistad/j0rb_64GFKugqjpYxlWglpVLrVdojJpgnjl#comment-list"  > <i class="amino-icon amino-icon-comment-splat-o"></i> <span class="num">4</span> </a>  <div class="action share pointer" data-vce="btn-popup" data-popup="share-link" data-popup-object-id="2f97185d-ff5b-4477-abd5-b2232457c9b0" data-popup-object-type="1" data-popup-ugly-link="https://aminoapps.com/c/baa/page/blog/buscando-amistad/j0rb_64GFKugqjpYxlWglpVLrVdojJpgnjl" > <i class="amino-icon amino-icon-share"></i> </div>  </footer> </article> </div>      <div class="list-item">    <article class="post post-blog" data-vce="rich-content">  <section class="info">  <a class="nickname block" href="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw" data-refer-type="profile_user_posts"> <img class="author avatar img-cover" data-vce="image"  src="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" > </a> <div class="post-author"> <a class="nickname block" href="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw" data-refer-type="profile_user_posts"> <span class="name-label"> 𝙰𝖗𝖆𝐝𝖎𝖆 </span>  <i class="level-badge level-badge-14"></i>  </a> <div class="pretty-date">2 days ago</div> </div>  </section>  <a class="block" href="https://aminoapps.com/c/baa/page/blog/origen-pagano-de-la-semana-santa/vdwE_JZMinu6jXG2XGpqnNBG8paQa8VmQ3R" data-refer-type="profile_user_posts"  > <section class="desc"> <h3 class="title">  ORIGEN PAGANO DE LA SEMANA SANTA  </h3>  <div class="content">  ALGUNOS DATOS:
+
+ *El día equivalente al Domingo de Ramos se llamaba en el Imperio romano Canna Intrat. Festival dedicado a los Dioses Attis y Cibeles. Para celebrarlo salían en desfile con juncos, cañas y ramos, hacia el templo de la Diosa Cibeles, por el camino se ofrecían cánticos a los Dio... </div>  </section>  <div class="gallery ">  <img class="img-cover gallery-item" alt="user uploaded image" data-vce="image" decoding="async" id="media-f36f9686"  src="//pm1.narvii.com/8261/254668c5b33f3963e017f3c3606cdb8811c6f5e8r1-600-800v2_00.jpg"  >  </div>  </a>  <footer class="actions">  <div class="action pointer" data-vce="btn-like" data-vote-value="0" data-href="https://aminoapps.com/c/baa/page/blog/origen-pagano-de-la-semana-santa/vdwE_JZMinu6jXG2XGpqnNBG8paQa8VmQ3R"   data-target-ndc-id="196698407" data-target-post-type="blog" data-target-post-id="58419e82-6d9c-4ffd-a0ca-0540d3ce19ae" data-target-log-type="blog"  data-join-icons="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" data-join-deeplink="narviiapp://x196698407/blog/58419e82-6d9c-4ffd-a0ca-0540d3ce19ae" data-join-motivation="like" data-join-motivation-like="page" data-join-copytext="https://aminoapps.com/c/baa/page/blog/origen-pagano-de-la-semana-santa/vdwE_JZMinu6jXG2XGpqnNBG8paQa8VmQ3R" data-login-motivation="Sign in to like this post." data-source="Like Post" data-event-label="like_post" data-submit-event-label="feed_card" > <i class="amino-icon amino-icon-heart"></i> <i class="amino-icon amino-icon-heart-o"></i> <span class="num">3</span> </div> <a class="action pointer block"  href="https://aminoapps.com/c/baa/page/blog/origen-pagano-de-la-semana-santa/vdwE_JZMinu6jXG2XGpqnNBG8paQa8VmQ3R#comment-list"  > <i class="amino-icon amino-icon-comment-splat-o"></i> <span class="num">0</span> </a>  <div class="action share pointer" data-vce="btn-popup" data-popup="share-link" data-popup-object-id="58419e82-6d9c-4ffd-a0ca-0540d3ce19ae" data-popup-object-type="1" data-popup-ugly-link="https://aminoapps.com/c/baa/page/blog/origen-pagano-de-la-semana-santa/vdwE_JZMinu6jXG2XGpqnNBG8paQa8VmQ3R" > <i class="amino-icon amino-icon-share"></i> </div>  </footer> </article> </div>      <div class="list-item">    <article class="post post-blog" data-vce="rich-content">  <section class="info">  <a class="nickname block" href="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw" data-refer-type="profile_user_posts"> <img class="author avatar img-cover" data-vce="image"  src="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" > </a> <div class="post-author"> <a class="nickname block" href="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw" data-refer-type="profile_user_posts"> <span class="name-label"> 𝙰𝖗𝖆𝐝𝖎𝖆 </span>  <i class="level-badge level-badge-14"></i>  </a> <div class="pretty-date">3 days ago</div> </div>  </section>  <a class="block" href="https://aminoapps.com/c/baa/page/blog/super-luna-rosa/o3RJ_8MYsduQGgqxNkQlaBqYmxEWDmQDXY5" data-refer-type="profile_user_posts"  > <section class="desc"> <h3 class="title">  Super Luna Rosa  </h3>  <div class="content">   :sparkles: Se nombró luna rosa a la primera luna llena qué ocurría  después de la llegada del equinoccio de primavera, se le llamó así por las moss Pink , una flor silvestre que aparece Justo con la aparición de esta luna, con el comienzo de la primavera, y es precisamente el anuncio de que llegó esta col... </div>  </section>  <div class="gallery ">  <img class="img-cover gallery-item" alt="user uploaded image" data-vce="image" decoding="async" id="media-8cf516b7"  src="//pm1.narvii.com/8261/23074f15e025db36eea02e6f067455a425b8c8c3r1-1200-747v2_00.jpg"  >  </div>  </a>  <footer class="actions">  <div class="action pointer" data-vce="btn-like" data-vote-value="0" data-href="https://aminoapps.com/c/baa/page/blog/super-luna-rosa/o3RJ_8MYsduQGgqxNkQlaBqYmxEWDmQDXY5"   data-target-ndc-id="196698407" data-target-post-type="blog" data-target-post-id="fbcf399d-e9b7-4627-bbca-a3a42e55d59e" data-target-log-type="blog"  data-join-icons="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" data-join-deeplink="narviiapp://x196698407/blog/fbcf399d-e9b7-4627-bbca-a3a42e55d59e" data-join-motivation="like" data-join-motivation-like="page" data-join-copytext="https://aminoapps.com/c/baa/page/blog/super-luna-rosa/o3RJ_8MYsduQGgqxNkQlaBqYmxEWDmQDXY5" data-login-motivation="Sign in to like this post." data-source="Like Post" data-event-label="like_post" data-submit-event-label="feed_card" > <i class="amino-icon amino-icon-heart"></i> <i class="amino-icon amino-icon-heart-o"></i> <span class="num">5</span> </div> <a class="action pointer block"  href="https://aminoapps.com/c/baa/page/blog/super-luna-rosa/o3RJ_8MYsduQGgqxNkQlaBqYmxEWDmQDXY5#comment-list"  > <i class="amino-icon amino-icon-comment-splat-o"></i> <span class="num">0</span> </a>  <div class="action share pointer" data-vce="btn-popup" data-popup="share-link" data-popup-object-id="fbcf399d-e9b7-4627-bbca-a3a42e55d59e" data-popup-object-type="1" data-popup-ugly-link="https://aminoapps.com/c/baa/page/blog/super-luna-rosa/o3RJ_8MYsduQGgqxNkQlaBqYmxEWDmQDXY5" > <i class="amino-icon amino-icon-share"></i> </div>  </footer> </article> </div>      <div class="list-item">    <article class="post post-blog" data-vce="rich-content">  <section class="info">  <a class="nickname block" href="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw" data-refer-type="profile_user_posts"> <img class="author avatar img-cover" data-vce="image"  src="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" > </a> <div class="post-author"> <a class="nickname block" href="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw" data-refer-type="profile_user_posts"> <span class="name-label"> 𝙰𝖗𝖆𝐝𝖎𝖆 </span>  <i class="level-badge level-badge-14"></i>  </a> <div class="pretty-date">4 days ago</div> </div>  </section>  <a class="block" href="https://aminoapps.com/c/baa/page/blog/a-pesar-de-cualquier-giro-que-de-mi-vida/o3RJ_8MYsduDz5WqGRG844DpPzv5rXpVW6e" data-refer-type="profile_user_posts"  > <section class="desc"> <h3 class="title">  A pesar de cualquier giro que dé mi vida,  </h3>  <div class="content">  A pesar de cualquier giro que dé mi vida, mi esencia permanecerá intacta.
+
+_______________
+┊┊┊┊┊ ⋆┊┊
+┊⋆ ˚✯┊☪⋆ ✩
+☪⋆｡˚┊˚✩ ┊
+┊⋆｡˚. ੈ ┊
+      ⋆✩
+ Mi alma rebelde e independiente sigue ahí,  aguardando para dar batalla cuando se necesite.
+
+
+ Amo sentirme libre, realizada e independie... </div>  </section>  <div class="gallery ">  <img class="img-cover gallery-item" alt="user uploaded image" data-vce="image" decoding="async" id="media-61573c37"  src="//pm1.narvii.com/8260/ec6a9e44a300ba9402aa2f8294290d6e7afa46far1-427-640v2_00.jpg"  >  </div>  </a>  <footer class="actions">  <div class="action pointer" data-vce="btn-like" data-vote-value="0" data-href="https://aminoapps.com/c/baa/page/blog/a-pesar-de-cualquier-giro-que-de-mi-vida/o3RJ_8MYsduDz5WqGRG844DpPzv5rXpVW6e"   data-target-ndc-id="196698407" data-target-post-type="blog" data-target-post-id="de4c815f-69c6-4bb8-b15d-85670c78760e" data-target-log-type="blog"  data-join-icons="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" data-join-deeplink="narviiapp://x196698407/blog/de4c815f-69c6-4bb8-b15d-85670c78760e" data-join-motivation="like" data-join-motivation-like="page" data-join-copytext="https://aminoapps.com/c/baa/page/blog/a-pesar-de-cualquier-giro-que-de-mi-vida/o3RJ_8MYsduDz5WqGRG844DpPzv5rXpVW6e" data-login-motivation="Sign in to like this post." data-source="Like Post" data-event-label="like_post" data-submit-event-label="feed_card" > <i class="amino-icon amino-icon-heart"></i> <i class="amino-icon amino-icon-heart-o"></i> <span class="num">8</span> </div> <a class="action pointer block"  href="https://aminoapps.com/c/baa/page/blog/a-pesar-de-cualquier-giro-que-de-mi-vida/o3RJ_8MYsduDz5WqGRG844DpPzv5rXpVW6e#comment-list"  > <i class="amino-icon amino-icon-comment-splat-o"></i> <span class="num">0</span> </a>  <div class="action share pointer" data-vce="btn-popup" data-popup="share-link" data-popup-object-id="de4c815f-69c6-4bb8-b15d-85670c78760e" data-popup-object-type="1" data-popup-ugly-link="https://aminoapps.com/c/baa/page/blog/a-pesar-de-cualquier-giro-que-de-mi-vida/o3RJ_8MYsduDz5WqGRG844DpPzv5rXpVW6e" > <i class="amino-icon amino-icon-share"></i> </div>  </footer> </article> </div>      <div class="list-item">    <article class="post post-blog" data-vce="rich-content">  <section class="info">  <a class="nickname block" href="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw" data-refer-type="profile_user_posts"> <img class="author avatar img-cover" data-vce="image"  src="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" > </a> <div class="post-author"> <a class="nickname block" href="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw" data-refer-type="profile_user_posts"> <span class="name-label"> 𝙰𝖗𝖆𝐝𝖎𝖆 </span>  <i class="level-badge level-badge-14"></i>  </a> <div class="pretty-date">10 days ago</div> </div>  </section>  <a class="block" href="https://aminoapps.com/c/baa/page/blog/juramento-de-bruja/r0wZ_YVRFeumxaRLjgBgVXkk3LDNNj33VkQ" data-refer-type="profile_user_posts"  > <section class="desc"> <h3 class="title">  JURAMENTO DE BRUJA  </h3>  <div class="content">  Repetir cada mañana al pisar el suelo!!
+
+ Juro ante los dioses, antepasados y el universo, honrarme como mujer, bruja, madre e hija, una bruja vive y ríe en cada mujer que es libre de reconocer su libertad para amar y ser amada, para ser una misma.
+❲ ❘ ︶︶︶︶︶︶︶ ❝❞ ︶︶︶︶︶︶︶ ❘ ❳⋅ ⋅
+┊┊┊┊          ... </div>  </section>  <div class="gallery ">  <img class="img-cover gallery-item" alt="user uploaded image" data-vce="image" decoding="async" id="media-ed0ec4c9" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pa1.narvii.com/8253/3af418112a55dea9f08ea3a879ebd81e396c6a63r1-346-342_00.gif"  >  </div>  </a>  <footer class="actions">  <div class="action pointer" data-vce="btn-like" data-vote-value="0" data-href="https://aminoapps.com/c/baa/page/blog/juramento-de-bruja/r0wZ_YVRFeumxaRLjgBgVXkk3LDNNj33VkQ"   data-target-ndc-id="196698407" data-target-post-type="blog" data-target-post-id="c38672cf-4063-4fef-bf29-54df338bd3d9" data-target-log-type="blog"  data-join-icons="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" data-join-deeplink="narviiapp://x196698407/blog/c38672cf-4063-4fef-bf29-54df338bd3d9" data-join-motivation="like" data-join-motivation-like="page" data-join-copytext="https://aminoapps.com/c/baa/page/blog/juramento-de-bruja/r0wZ_YVRFeumxaRLjgBgVXkk3LDNNj33VkQ" data-login-motivation="Sign in to like this post." data-source="Like Post" data-event-label="like_post" data-submit-event-label="feed_card" > <i class="amino-icon amino-icon-heart"></i> <i class="amino-icon amino-icon-heart-o"></i> <span class="num">19</span> </div> <a class="action pointer block"  href="https://aminoapps.com/c/baa/page/blog/juramento-de-bruja/r0wZ_YVRFeumxaRLjgBgVXkk3LDNNj33VkQ#comment-list"  > <i class="amino-icon amino-icon-comment-splat-o"></i> <span class="num">0</span> </a>  <div class="action share pointer" data-vce="btn-popup" data-popup="share-link" data-popup-object-id="c38672cf-4063-4fef-bf29-54df338bd3d9" data-popup-object-type="1" data-popup-ugly-link="https://aminoapps.com/c/baa/page/blog/juramento-de-bruja/r0wZ_YVRFeumxaRLjgBgVXkk3LDNNj33VkQ" > <i class="amino-icon amino-icon-share"></i> </div>  </footer> </article> </div>      <div class="list-item">    <article class="post post-blog" data-vce="rich-content">  <section class="info">  <a class="nickname block" href="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw" data-refer-type="profile_user_posts"> <img class="author avatar img-cover" data-vce="image"  src="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" > </a> <div class="post-author"> <a class="nickname block" href="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw" data-refer-type="profile_user_posts"> <span class="name-label"> 𝙰𝖗𝖆𝐝𝖎𝖆 </span>  <i class="level-badge level-badge-14"></i>  </a> <div class="pretty-date">March 18</div> </div>  </section>  <a class="block" href="https://aminoapps.com/c/baa/page/blog/un-demonio-llamado-envidia/5BV5_8k6tVueJZLgbbVagwo7Demkp3dnNbp" data-refer-type="profile_user_posts"  > <section class="desc"> <h3 class="title">  UN DEMONIO LLAMADO ENVIDIA  </h3>  <div class="content">  Vivimos rodeados de gente, familia, amigos, conocidos, compañeros de trabajo y la vida de cada uno es diferente a la del otro, a unos la vida los trató mejor que a los otros, o unos lucharon más que los otros para que les fuera bien en su vida.
+
+       │││            
+       │││
+       │││
+     ... </div>  </section>  <div class="gallery ">  <img class="img-cover gallery-item" alt="user uploaded image" data-vce="image" decoding="async" id="media-cd217d09" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pm1.narvii.com/8232/7954f36d370baa40764374b4f0c278c167372421r1-552-552v2_00.jpg"  >  </div>  </a>  <footer class="actions">  <div class="action pointer" data-vce="btn-like" data-vote-value="0" data-href="https://aminoapps.com/c/baa/page/blog/un-demonio-llamado-envidia/5BV5_8k6tVueJZLgbbVagwo7Demkp3dnNbp"   data-target-ndc-id="196698407" data-target-post-type="blog" data-target-post-id="5df3f713-5793-48ac-869b-0999eed2c68c" data-target-log-type="blog"  data-join-icons="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" data-join-deeplink="narviiapp://x196698407/blog/5df3f713-5793-48ac-869b-0999eed2c68c" data-join-motivation="like" data-join-motivation-like="page" data-join-copytext="https://aminoapps.com/c/baa/page/blog/un-demonio-llamado-envidia/5BV5_8k6tVueJZLgbbVagwo7Demkp3dnNbp" data-login-motivation="Sign in to like this post." data-source="Like Post" data-event-label="like_post" data-submit-event-label="feed_card" > <i class="amino-icon amino-icon-heart"></i> <i class="amino-icon amino-icon-heart-o"></i> <span class="num">15</span> </div> <a class="action pointer block"  href="https://aminoapps.com/c/baa/page/blog/un-demonio-llamado-envidia/5BV5_8k6tVueJZLgbbVagwo7Demkp3dnNbp#comment-list"  > <i class="amino-icon amino-icon-comment-splat-o"></i> <span class="num">0</span> </a>  <div class="action share pointer" data-vce="btn-popup" data-popup="share-link" data-popup-object-id="5df3f713-5793-48ac-869b-0999eed2c68c" data-popup-object-type="1" data-popup-ugly-link="https://aminoapps.com/c/baa/page/blog/un-demonio-llamado-envidia/5BV5_8k6tVueJZLgbbVagwo7Demkp3dnNbp" > <i class="amino-icon amino-icon-share"></i> </div>  </footer> </article> </div>  <section class="post-list-item--desktop-ad"> <div style="width:728px !important; min-height:100px !important; margin:10px auto 0px !important;"></div> </section> <script type="text/javascript">
+  document.addEventListener('ANAReady', () => {
+    window.fillInBetweenPostsAdSlots();
+  });
+</script>    <div class="list-item">    <article class="post post-blog" data-vce="rich-content">  <section class="info">  <a class="nickname block" href="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw" data-refer-type="profile_user_posts"> <img class="author avatar img-cover" data-vce="image" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" > </a> <div class="post-author"> <a class="nickname block" href="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw" data-refer-type="profile_user_posts"> <span class="name-label"> 𝙰𝖗𝖆𝐝𝖎𝖆 </span>  <i class="level-badge level-badge-14"></i>  </a> <div class="pretty-date">March 15</div> </div>  </section>  <a class="block" href="https://aminoapps.com/c/baa/page/blog/si-crees-en-el-destino-lee-esto/ERQJ_bqoSPuxDYd2ePVvjRXr8gQdzjxLavN" data-refer-type="profile_user_posts"  > <section class="desc"> <h3 class="title">  SI CREES EN EL DESTINO... LEE ÉSTO  </h3>  <div class="content"> │ │☾      
+                   │ │ │ ☾
+                   │ │⛧ 
+
+                   │ │ │ ☾
+                   │ │⛧ 
+                   │ ☾               
+
+ "Todo lo que sea para ti, te encontrará... Mientras tanto respira, sonríe, agradece y guarda silencio. Camina tranquilo disfrutando del paisa... </div>  </section>  <div class="gallery ">  <img class="img-cover gallery-item" alt="user uploaded image" data-vce="image" decoding="async" id="media-cb1bba8a" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pm1.narvii.com/8229/c12d776f22f2ec55ed650d5acdd6445c98cbc5c3r1-594-900v2_00.jpg"  >  </div>  </a>  <footer class="actions">  <div class="action pointer" data-vce="btn-like" data-vote-value="0" data-href="https://aminoapps.com/c/baa/page/blog/si-crees-en-el-destino-lee-esto/ERQJ_bqoSPuxDYd2ePVvjRXr8gQdzjxLavN"   data-target-ndc-id="196698407" data-target-post-type="blog" data-target-post-id="68c9178f-2b0d-4a96-9c0e-1a705d42c1e0" data-target-log-type="blog"  data-join-icons="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" data-join-deeplink="narviiapp://x196698407/blog/68c9178f-2b0d-4a96-9c0e-1a705d42c1e0" data-join-motivation="like" data-join-motivation-like="page" data-join-copytext="https://aminoapps.com/c/baa/page/blog/si-crees-en-el-destino-lee-esto/ERQJ_bqoSPuxDYd2ePVvjRXr8gQdzjxLavN" data-login-motivation="Sign in to like this post." data-source="Like Post" data-event-label="like_post" data-submit-event-label="feed_card" > <i class="amino-icon amino-icon-heart"></i> <i class="amino-icon amino-icon-heart-o"></i> <span class="num">18</span> </div> <a class="action pointer block"  href="https://aminoapps.com/c/baa/page/blog/si-crees-en-el-destino-lee-esto/ERQJ_bqoSPuxDYd2ePVvjRXr8gQdzjxLavN#comment-list"  > <i class="amino-icon amino-icon-comment-splat-o"></i> <span class="num">2</span> </a>  <div class="action share pointer" data-vce="btn-popup" data-popup="share-link" data-popup-object-id="68c9178f-2b0d-4a96-9c0e-1a705d42c1e0" data-popup-object-type="1" data-popup-ugly-link="https://aminoapps.com/c/baa/page/blog/si-crees-en-el-destino-lee-esto/ERQJ_bqoSPuxDYd2ePVvjRXr8gQdzjxLavN" > <i class="amino-icon amino-icon-share"></i> </div>  </footer> </article> </div>      <div class="list-item">    <article class="post post-blog" data-vce="rich-content">  <section class="info">  <a class="nickname block" href="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw" data-refer-type="profile_user_posts"> <img class="author avatar img-cover" data-vce="image" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" > </a> <div class="post-author"> <a class="nickname block" href="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw" data-refer-type="profile_user_posts"> <span class="name-label"> 𝙰𝖗𝖆𝐝𝖎𝖆 </span>  <i class="level-badge level-badge-14"></i>  </a> <div class="pretty-date">March 04</div> </div>  </section>  <a class="block" href="https://aminoapps.com/c/baa/page/blog/el-nacimiento-de-qalmana-y-qayin/X0gd_q7kFgu1aWZgd7xvGgqkQd3ZDqBpQ5" data-refer-type="profile_user_posts"  > <section class="desc"> <h3 class="title">  EL NACIMIENTO DE QALMANA Y QAYIN  </h3>  <div class="content">  Adán y Eva vivieron en el Jardín del Creador. Este jardín fue la primera herramienta de propaganda utilizada para establecer un Ego ignorante del espíritu. Adán era el Nacido de Arcilla, mientras que Eva era la Nacida del Fuego. 
+
+ :zap: 🌙☣------------------------------------------------ :zap: 🌙☣
+       │... </div>  </section>  <div class="gallery ">  <img class="img-cover gallery-item" alt="user uploaded image" data-vce="image" decoding="async" id="media-a3468c80" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pm1.narvii.com/8218/2c2c658d7155ab3c26c2bb7b05eb8bf456255901r1-818-1020v2_00.jpg"  >  </div>  </a>  <footer class="actions">  <div class="action pointer" data-vce="btn-like" data-vote-value="0" data-href="https://aminoapps.com/c/baa/page/blog/el-nacimiento-de-qalmana-y-qayin/X0gd_q7kFgu1aWZgd7xvGgqkQd3ZDqBpQ5"   data-target-ndc-id="196698407" data-target-post-type="blog" data-target-post-id="1c057f5d-18c1-4dde-8b7a-0272c14cafd1" data-target-log-type="blog"  data-join-icons="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" data-join-deeplink="narviiapp://x196698407/blog/1c057f5d-18c1-4dde-8b7a-0272c14cafd1" data-join-motivation="like" data-join-motivation-like="page" data-join-copytext="https://aminoapps.com/c/baa/page/blog/el-nacimiento-de-qalmana-y-qayin/X0gd_q7kFgu1aWZgd7xvGgqkQd3ZDqBpQ5" data-login-motivation="Sign in to like this post." data-source="Like Post" data-event-label="like_post" data-submit-event-label="feed_card" > <i class="amino-icon amino-icon-heart"></i> <i class="amino-icon amino-icon-heart-o"></i> <span class="num">14</span> </div> <a class="action pointer block"  href="https://aminoapps.com/c/baa/page/blog/el-nacimiento-de-qalmana-y-qayin/X0gd_q7kFgu1aWZgd7xvGgqkQd3ZDqBpQ5#comment-list"  > <i class="amino-icon amino-icon-comment-splat-o"></i> <span class="num">0</span> </a>  <div class="action share pointer" data-vce="btn-popup" data-popup="share-link" data-popup-object-id="1c057f5d-18c1-4dde-8b7a-0272c14cafd1" data-popup-object-type="1" data-popup-ugly-link="https://aminoapps.com/c/baa/page/blog/el-nacimiento-de-qalmana-y-qayin/X0gd_q7kFgu1aWZgd7xvGgqkQd3ZDqBpQ5" > <i class="amino-icon amino-icon-share"></i> </div>  </footer> </article> </div>      <div class="list-item">    <article class="post post-blog" data-vce="rich-content">  <section class="info">  <a class="nickname block" href="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw" data-refer-type="profile_user_posts"> <img class="author avatar img-cover" data-vce="image" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" > </a> <div class="post-author"> <a class="nickname block" href="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw" data-refer-type="profile_user_posts"> <span class="name-label"> 𝙰𝖗𝖆𝐝𝖎𝖆 </span>  <i class="level-badge level-badge-14"></i>  </a> <div class="pretty-date">08/14/19</div> </div>  </section>  <a class="block" href="https://aminoapps.com/c/baa/page/blog/no-lo-tomes-personal-es-solo-tu-vibracion/G5kM_WmoFnu0njkN0L1Na863qqPBprD1m74" data-refer-type="profile_user_posts"  > <section class="desc"> <h3 class="title">  No Lo Tomes Personal. Es Sólo Tu Vibración.  </h3>  <div class="content">  ¿Por qué me fue infiel?
+
+ La infidelidad no existe, te generaste esto para que te seas leal y te des cuenta que no te amas.
+
+
+
+  ¿Por qué me miente?
+
+ Nadie te miente, tu actitud obliga a que te digan sólo lo que quieres escuchar, más no lo que es.
+
+••┈┈┈┈┈┈••🖤✦🖤••┈┈┈┈┈┈••
+
+ BC... </div>  </section>  <div class="gallery ">  <img class="img-cover gallery-item" alt="user uploaded image" data-vce="image" decoding="async" id="media-bde38e37" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pm1.narvii.com/7285/826bbbf7082d0b5c6fb84857d434af1791946159r1-286-512v2_00.jpg"  >  </div>  </a>  <footer class="actions">  <div class="action pointer" data-vce="btn-like" data-vote-value="0" data-href="https://aminoapps.com/c/baa/page/blog/no-lo-tomes-personal-es-solo-tu-vibracion/G5kM_WmoFnu0njkN0L1Na863qqPBprD1m74"   data-target-ndc-id="196698407" data-target-post-type="blog" data-target-post-id="786c3abd-e2c8-41aa-a529-f6f89fe91e9d" data-target-log-type="blog"  data-join-icons="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" data-join-deeplink="narviiapp://x196698407/blog/786c3abd-e2c8-41aa-a529-f6f89fe91e9d" data-join-motivation="like" data-join-motivation-like="page" data-join-copytext="https://aminoapps.com/c/baa/page/blog/no-lo-tomes-personal-es-solo-tu-vibracion/G5kM_WmoFnu0njkN0L1Na863qqPBprD1m74" data-login-motivation="Sign in to like this post." data-source="Like Post" data-event-label="like_post" data-submit-event-label="feed_card" > <i class="amino-icon amino-icon-heart"></i> <i class="amino-icon amino-icon-heart-o"></i> <span class="num">46</span> </div> <a class="action pointer block"  href="https://aminoapps.com/c/baa/page/blog/no-lo-tomes-personal-es-solo-tu-vibracion/G5kM_WmoFnu0njkN0L1Na863qqPBprD1m74#comment-list"  > <i class="amino-icon amino-icon-comment-splat-o"></i> <span class="num">1</span> </a>  <div class="action share pointer" data-vce="btn-popup" data-popup="share-link" data-popup-object-id="786c3abd-e2c8-41aa-a529-f6f89fe91e9d" data-popup-object-type="1" data-popup-ugly-link="https://aminoapps.com/c/baa/page/blog/no-lo-tomes-personal-es-solo-tu-vibracion/G5kM_WmoFnu0njkN0L1Na863qqPBprD1m74" > <i class="amino-icon amino-icon-share"></i> </div>  </footer> </article> </div>      <div class="list-item">    <article class="post post-blog" data-vce="rich-content">  <section class="info">  <a class="nickname block" href="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw" data-refer-type="profile_user_posts"> <img class="author avatar img-cover" data-vce="image" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" > </a> <div class="post-author"> <a class="nickname block" href="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw" data-refer-type="profile_user_posts"> <span class="name-label"> 𝙰𝖗𝖆𝐝𝖎𝖆 </span>  <i class="level-badge level-badge-14"></i>  </a> <div class="pretty-date">07/16/19</div> </div>  </section>  <a class="block" href="https://aminoapps.com/c/baa/page/blog/vela-negra-para-destruir-y-doblegar-un-enemigo/X0gd_q7kFgujJ4DVZXlZRKeqKkjzkL7eq57" data-refer-type="profile_user_posts"  > <section class="desc"> <h3 class="title">  Vela Negra Para Destruir y Doblegar Un Enemigo.  </h3>  <div class="content">  NECESITAMOS
+
+   1vela negra
+
+ Semillas de Chile
+
+ Chile molido
+
+ Pimienta negra o  voladora 
+
+ Limón O vinagre ,sal, azufre en polvo 
+
+
+
+
+ Empezamos: agarramos la vela y ponemos nombre de la persona o fregar,cortamos la cabeza de la vela y la aplanamos para c... </div>  </section>  <div class="gallery ">  <img class="img-cover gallery-item" alt="user uploaded image" data-vce="image" decoding="async" id="media-c23777c5" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pa1.narvii.com/7256/5abf2cb0a0a6acf8575cad4e3f8eec008f9a600ar1-500-630_00.gif"  >  <div class="side">  <img class="img-cover gallery-item" alt="user uploaded image" data-vce="image" decoding="async" id="media-e16f531a" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pa1.narvii.com/7256/b5f1141e720469c824cbb777233e264affb5492ar1-320-240_00.gif"  >  <img class="img-cover gallery-item" alt="user uploaded image" data-vce="image" decoding="async" id="media-ea0a4083" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pa1.narvii.com/7256/561bbfc151f7e5d0e925cc3f5016e8aafecc2b2cr1-320-240_00.gif"  >  </div>  </div>  </a>  <footer class="actions">  <div class="action pointer" data-vce="btn-like" data-vote-value="0" data-href="https://aminoapps.com/c/baa/page/blog/vela-negra-para-destruir-y-doblegar-un-enemigo/X0gd_q7kFgujJ4DVZXlZRKeqKkjzkL7eq57"   data-target-ndc-id="196698407" data-target-post-type="blog" data-target-post-id="9ddd6b66-1f24-4bae-a48a-a567196571bd" data-target-log-type="blog"  data-join-icons="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" data-join-deeplink="narviiapp://x196698407/blog/9ddd6b66-1f24-4bae-a48a-a567196571bd" data-join-motivation="like" data-join-motivation-like="page" data-join-copytext="https://aminoapps.com/c/baa/page/blog/vela-negra-para-destruir-y-doblegar-un-enemigo/X0gd_q7kFgujJ4DVZXlZRKeqKkjzkL7eq57" data-login-motivation="Sign in to like this post." data-source="Like Post" data-event-label="like_post" data-submit-event-label="feed_card" > <i class="amino-icon amino-icon-heart"></i> <i class="amino-icon amino-icon-heart-o"></i> <span class="num">39</span> </div> <a class="action pointer block"  href="https://aminoapps.com/c/baa/page/blog/vela-negra-para-destruir-y-doblegar-un-enemigo/X0gd_q7kFgujJ4DVZXlZRKeqKkjzkL7eq57#comment-list"  > <i class="amino-icon amino-icon-comment-splat-o"></i> <span class="num">6</span> </a>  <div class="action share pointer" data-vce="btn-popup" data-popup="share-link" data-popup-object-id="9ddd6b66-1f24-4bae-a48a-a567196571bd" data-popup-object-type="1" data-popup-ugly-link="https://aminoapps.com/c/baa/page/blog/vela-negra-para-destruir-y-doblegar-un-enemigo/X0gd_q7kFgujJ4DVZXlZRKeqKkjzkL7eq57" > <i class="amino-icon amino-icon-share"></i> </div>  </footer> </article> </div>      <div class="list-item">    <article class="post post-blog" data-vce="rich-content">  <section class="info">  <a class="nickname block" href="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw" data-refer-type="profile_user_posts"> <img class="author avatar img-cover" data-vce="image" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" > </a> <div class="post-author"> <a class="nickname block" href="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw" data-refer-type="profile_user_posts"> <span class="name-label"> 𝙰𝖗𝖆𝐝𝖎𝖆 </span>  <i class="level-badge level-badge-14"></i>  </a> <div class="pretty-date">03/18/19</div> </div>  </section>  <a class="block" href="https://aminoapps.com/c/baa/page/blog/caracteristicas-de-un-ser-de-luz/kwr2_DmkUGu7MDKJGn63JZDW8bx20Rm5j71" data-refer-type="profile_user_posts"  > <section class="desc"> <h3 class="title">  Características de un ser de luz.  </h3>  <div class="content">     1 - Desde temprano en sus vidas, sienten que son diferentes. Muy frecuentemente se sienten aislados de los otros, solitarios y no comprendidos, y tendrán que encontrar sus propios caminos en la vida.
+
+
+
+   2- Tienen problemas con sentirse cómodos dentro de los trabajos tradicional... </div>  </section>  <div class="gallery ">  <img class="img-cover gallery-item" alt="user uploaded image" data-vce="image" decoding="async" id="media-fe8bb430" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pm1.narvii.com/7136/8254a8eab4f8c8868a4403169c697905daa4f12br1-720-720v2_00.jpg"  >  <div class="side">  <img class="img-cover gallery-item" alt="user uploaded image" data-vce="image" decoding="async" id="media-25694a95" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pa1.narvii.com/7136/0e2cc6ff2ff7574df4f5582cddf9f35ec6f3c449r1-450-146_00.gif"  >  </div>  </div>  </a>  <footer class="actions">  <div class="action pointer" data-vce="btn-like" data-vote-value="0" data-href="https://aminoapps.com/c/baa/page/blog/caracteristicas-de-un-ser-de-luz/kwr2_DmkUGu7MDKJGn63JZDW8bx20Rm5j71"   data-target-ndc-id="196698407" data-target-post-type="blog" data-target-post-id="b039b2ef-6892-4720-8b97-92eccb790147" data-target-log-type="blog"  data-join-icons="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" data-join-deeplink="narviiapp://x196698407/blog/b039b2ef-6892-4720-8b97-92eccb790147" data-join-motivation="like" data-join-motivation-like="page" data-join-copytext="https://aminoapps.com/c/baa/page/blog/caracteristicas-de-un-ser-de-luz/kwr2_DmkUGu7MDKJGn63JZDW8bx20Rm5j71" data-login-motivation="Sign in to like this post." data-source="Like Post" data-event-label="like_post" data-submit-event-label="feed_card" > <i class="amino-icon amino-icon-heart"></i> <i class="amino-icon amino-icon-heart-o"></i> <span class="num">36</span> </div> <a class="action pointer block"  href="https://aminoapps.com/c/baa/page/blog/caracteristicas-de-un-ser-de-luz/kwr2_DmkUGu7MDKJGn63JZDW8bx20Rm5j71#comment-list"  > <i class="amino-icon amino-icon-comment-splat-o"></i> <span class="num">0</span> </a>  <div class="action share pointer" data-vce="btn-popup" data-popup="share-link" data-popup-object-id="b039b2ef-6892-4720-8b97-92eccb790147" data-popup-object-type="1" data-popup-ugly-link="https://aminoapps.com/c/baa/page/blog/caracteristicas-de-un-ser-de-luz/kwr2_DmkUGu7MDKJGn63JZDW8bx20Rm5j71" > <i class="amino-icon amino-icon-share"></i> </div>  </footer> </article> </div>      <div class="list-item">    <article class="post post-blog" data-vce="rich-content">  <section class="info">  <a class="nickname block" href="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw" data-refer-type="profile_user_posts"> <img class="author avatar img-cover" data-vce="image" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" > </a> <div class="post-author"> <a class="nickname block" href="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw" data-refer-type="profile_user_posts"> <span class="name-label"> 𝙰𝖗𝖆𝐝𝖎𝖆 </span>  <i class="level-badge level-badge-14"></i>  </a> <div class="pretty-date">12/08/18</div> </div>  </section>  <a class="block" href="https://aminoapps.com/c/baa/page/blog/no-tengas-miedo-de-perder-a-quien-no-se-siente-afortunad-de-tenerte/L27E_3Wwi8uMwBbmv6Rbewe8Kb85DD5QxNR" data-refer-type="profile_user_posts"  > <section class="desc"> <h3 class="title">  No Tengas Miedo De Perder A Quien No Se Siente Afortunad@ De Tenerte.  </h3>  <div class="content">  Muchas veces hemos establecido relaciones con personas que no han logrado apreciar en nosotros el valor que tenemos. Esto debemos aceptarlo y entenderlo. No todos somos capaces de apreciar las mismas cosas, todos ponderamos cualidades de diferentes maneras y en definitiva cada uno siente lo que ... </div>  </section>  <div class="gallery ">  <img class="img-cover gallery-item" alt="user uploaded image" data-vce="image" decoding="async" id="media-c7e500a2" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pm1.narvii.com/7036/8098f9ae59e65d22c78bc9e43995e426d41daa3er1-233-216v2_00.jpg"  >  <div class="side">  <img class="img-cover gallery-item" alt="user uploaded image" data-vce="image" decoding="async" id="media-235dd1d6" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pm1.narvii.com/7036/25f6726063258f9d3ef2e6538904f4654531f978r1-236-235v2_00.jpg"  >  <img class="img-cover gallery-item" alt="user uploaded image" data-vce="image" decoding="async" id="media-98111ccf" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pa1.narvii.com/7036/5df5fb02d936fd10b0d33c9893c2861b8ff7412ar1-450-46_00.gif"  >  </div>  </div>  </a>  <footer class="actions">  <div class="action pointer" data-vce="btn-like" data-vote-value="0" data-href="https://aminoapps.com/c/baa/page/blog/no-tengas-miedo-de-perder-a-quien-no-se-siente-afortunad-de-tenerte/L27E_3Wwi8uMwBbmv6Rbewe8Kb85DD5QxNR"   data-target-ndc-id="196698407" data-target-post-type="blog" data-target-post-id="c3f22bfd-b40b-439a-a706-d7056711cd25" data-target-log-type="blog"  data-join-icons="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" data-join-deeplink="narviiapp://x196698407/blog/c3f22bfd-b40b-439a-a706-d7056711cd25" data-join-motivation="like" data-join-motivation-like="page" data-join-copytext="https://aminoapps.com/c/baa/page/blog/no-tengas-miedo-de-perder-a-quien-no-se-siente-afortunad-de-tenerte/L27E_3Wwi8uMwBbmv6Rbewe8Kb85DD5QxNR" data-login-motivation="Sign in to like this post." data-source="Like Post" data-event-label="like_post" data-submit-event-label="feed_card" > <i class="amino-icon amino-icon-heart"></i> <i class="amino-icon amino-icon-heart-o"></i> <span class="num">35</span> </div> <a class="action pointer block"  href="https://aminoapps.com/c/baa/page/blog/no-tengas-miedo-de-perder-a-quien-no-se-siente-afortunad-de-tenerte/L27E_3Wwi8uMwBbmv6Rbewe8Kb85DD5QxNR#comment-list"  > <i class="amino-icon amino-icon-comment-splat-o"></i> <span class="num">6</span> </a>  <div class="action share pointer" data-vce="btn-popup" data-popup="share-link" data-popup-object-id="c3f22bfd-b40b-439a-a706-d7056711cd25" data-popup-object-type="1" data-popup-ugly-link="https://aminoapps.com/c/baa/page/blog/no-tengas-miedo-de-perder-a-quien-no-se-siente-afortunad-de-tenerte/L27E_3Wwi8uMwBbmv6Rbewe8Kb85DD5QxNR" > <i class="amino-icon amino-icon-share"></i> </div>  </footer> </article> </div>  <section class="post-list-item--desktop-ad"> <div style="width:728px !important; min-height:100px !important; margin:10px auto 0px !important;"></div> </section> <script type="text/javascript">
+  document.addEventListener('ANAReady', () => {
+    window.fillInBetweenPostsAdSlots();
+  });
+</script> <div class="paginator">  <a class="page" href="/c/baa/page/user/aradia/BQGW_MkoHbfd7DdpnENR6NkMGrdgjLMgYj5t1?page=2"> <i class="fa fa-forward"></i> Next Page </a> </div>   </section> </div> <div class="tab-pane">   <a name="comment-list"></a> <section class="comment-list" data-vce="live-comment" data-live-comment-disabled="True" data-target-ndc-id="196698407"  data-target-post-type="user" data-target-post-id="3d114a68-8217-48c0-9bc3-5a57c166949f" data-target-log-type="profile" > <h3 class="title community-color">  Comment  </h3> <div class="content"  data-vce="comment-area">  <div class="load-comment-indicator"> <i class="fa fa-spin fa-circle-o-notch"></i> </div> <section class="comment-input-bar main" data-vce="comment-input-bar"  data-join-icons="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" data-join-deeplink="narviiapp://x196698407/user-profile/3d114a68-8217-48c0-9bc3-5a57c166949f" data-join-motivation="reply" data-source="Comment Reply"  data-success-redirect data-event-label="comment_new" >  <img class="user-icon" src="//wa1.narvii.com/static/img/user-icon-placeholder.png"/>  <textarea name="content" placeholder="Say something…" readonly maxlength="5000"></textarea> <button class="pointer btn btn-send community-bg" disabled> <i class="amino-icon amino-icon-send"></i> <i class="fa fa-spin fa-spinner"></i> </button> </section>     <article class="comment rich-content mutual-block main" data-comment-id="dcf6ec93-4b95-41ca-994c-182942650c5d" data-author-name="🔥↪Morgana↩❄" > <a name="comment-dcf6ec93-4b95-41ca-994c-182942650c5d" style="margin-top: -150px"></a> <div class="content"> <a class="block avatar-aside" href="https://aminoapps.com/c/baa/page/user/morgana/1JVX_Yn1u8fzMWGwNEoWkNR5zp6Ee78GDkv" >  <img class="avatar" data-vce="image" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pa1.narvii.com/7480/a8d00e4ef869d0f6e7407a95e1da5a2a0c48c021r1-512-512_128.gif"  >  </a> <div class="main" data-vce="rich-content"> <div class="info"> <a class="nickname" href="https://aminoapps.com/c/baa/page/user/morgana/1JVX_Yn1u8fzMWGwNEoWkNR5zp6Ee78GDkv"  >  <span class="content"> :fire:  :arrow_right_hook: Morgana :leftwards_arrow_with_hook:  :snowflake: </span>  <i class="level-badge level-badge-8"></i>   </a>  </div>  <div class="content overflowing " data-vce="toggle-content" data-threshold="85" data-success-redirect data-additional-logic="join" >  <div class="comment-text article"><p>*firmo su muro* Me encantaron tus blogs,a lo mejor te gustaria participar en un concurso</p></div>  <span class="height-toggle pointer"  data-popup="join-community" data-popup-icons="//pa1.narvii.com/7480/a8d00e4ef869d0f6e7407a95e1da5a2a0c48c021r1-512-512_128.gif" data-popup-deeplink="narviiapp://x196698407/comment/dcf6ec93-4b95-41ca-994c-182942650c5d?parent-type=0&amp;parent-id=3d114a68-8217-48c0-9bc3-5a57c166949f" data-popup-motivation="reply" data-popup-close-by-overlay="1" data-popup-success-redirect="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw#comment-dcf6ec93-4b95-41ca-994c-182942650c5d" data-popup-source="Expand Comment"  data-tea-event="expand_collapsed_comment" > Read more <i class="fa fa-caret-down"></i> </span> </div>  <div class="bottom-info">  <span class="vote pointer" data-vce="btn-like-comment" data-vote-value="0" data-login-motivation="Sign in to like this comment." data-join-icons="//pa1.narvii.com/7480/a8d00e4ef869d0f6e7407a95e1da5a2a0c48c021r1-512-512_128.gif" data-join-deeplink="narviiapp://x196698407/comment/dcf6ec93-4b95-41ca-994c-182942650c5d?parent-type=0&amp;parent-id=3d114a68-8217-48c0-9bc3-5a57c166949f" data-join-motivation="like" data-join-motivation-like="comment" data-event-label="like_comment" data-source="Like Comment" > <i class="amino-icon amino-icon-heart-o"></i> <i class="amino-icon amino-icon-heart"></i> <span class="num">1</span> </span>   <span class="reply pointer" data-join-icons="//pa1.narvii.com/7480/a8d00e4ef869d0f6e7407a95e1da5a2a0c48c021r1-512-512_128.gif" data-join-deeplink="narviiapp://x196698407/comment/dcf6ec93-4b95-41ca-994c-182942650c5d?parent-type=0&amp;parent-id=3d114a68-8217-48c0-9bc3-5a57c166949f" data-join-motivation="reply" > <i class="amino-icon amino-icon-comment-splat-o"></i> <span class="label">Reply</span> </span>  <span class="pretty-date">03/13/20</span> </div> </div> </div>  <div class="sub-comments">    <article class="comment rich-content mutual-block sub" data-comment-id="866d2f7e-d0a3-4320-8065-1565ce0a31c0" data-author-name="𝙰𝖗𝖆𝐝𝖎𝖆" > <a name="comment-866d2f7e-d0a3-4320-8065-1565ce0a31c0" style="margin-top: -150px"></a> <div class="content"> <a class="block avatar-aside" href="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw" >  <img class="avatar" data-vce="image" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg"  >  </a> <div class="main" data-vce="rich-content"> <div class="info"> <a class="nickname" href="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw"  >  <span class="content">𝙰𝖗𝖆𝐝𝖎𝖆</span>  <i class="level-badge level-badge-14"></i>   </a>  </div>  <div class="content overflowing " data-vce="toggle-content" data-threshold="85" data-success-redirect data-additional-logic="join" >  <div class="comment-text article"><p>Morgana</p><p>Muchas gracias  en que concurso</p></div>  <span class="height-toggle pointer"  data-popup="join-community" data-popup-icons="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" data-popup-deeplink="narviiapp://x196698407/comment/866d2f7e-d0a3-4320-8065-1565ce0a31c0?parent-type=0&amp;parent-id=3d114a68-8217-48c0-9bc3-5a57c166949f" data-popup-motivation="reply" data-popup-close-by-overlay="1" data-popup-success-redirect="https://aminoapps.com/c/baa/page/user/aradia/Rr4a_PZwuJfW8GWJDvPqMPVxgmWdNExdYNw#comment-866d2f7e-d0a3-4320-8065-1565ce0a31c0" data-popup-source="Expand Comment"  data-tea-event="expand_collapsed_comment" > Read more <i class="fa fa-caret-down"></i> </span> </div>  <div class="bottom-info">  <span class="vote pointer" data-vce="btn-like-comment" data-vote-value="0" data-login-motivation="Sign in to like this comment." data-join-icons="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" data-join-deeplink="narviiapp://x196698407/comment/866d2f7e-d0a3-4320-8065-1565ce0a31c0?parent-type=0&amp;parent-id=3d114a68-8217-48c0-9bc3-5a57c166949f" data-join-motivation="like" data-join-motivation-like="comment" data-event-label="like_comment" data-source="Like Comment" > <i class="amino-icon amino-icon-heart-o"></i> <i class="amino-icon amino-icon-heart"></i> <span class="num">1</span> </span>   <span class="reply pointer" data-join-icons="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" data-join-deeplink="narviiapp://x196698407/comment/866d2f7e-d0a3-4320-8065-1565ce0a31c0?parent-type=0&amp;parent-id=3d114a68-8217-48c0-9bc3-5a57c166949f" data-join-motivation="reply" > <i class="amino-icon amino-icon-comment-splat-o"></i> <span class="label">Reply</span> </span>  <span class="pretty-date">03/13/20</span> </div> </div> </div> </article>  </div> </article>   </div> <section class="live-comment"> <div class="content"> <div class="upper"> <ul class="comments unstyled"></ul> </div> <div class="pointer state-switch"> <span class="switch-on"> <i class="amino-icon amino-icon-show-comment"></i> </span> <span class="switch-off"> <i class="amino-icon amino-icon-hide-comment"></i> </span> </div>  <div class="comment-input-bar placeholder pointer"> <textarea name="content" readonly placeholder="Say something…"></textarea> </div>  </div> </section> </section>  </div> </section> <section class="blocked-indicator" data-author-uid="3d114a68-8217-48c0-9bc3-5a57c166949f"> <div class="blocked-container"> <i class="fa fa-ban"></i> You are blocked from following this user and viewing this user's posts. </div> </section> </article> </section>  <div class="live-member-list" data-vce="member-list" data-event-category="Popup Join" data-event-action="online_members" data-tea-event="download_popup" data-tea-source="Online Members" > <div class="content" data-vce="btn-popup" data-popup="join-community"  data-popup-motivation="online_members" data-popup-tea-source="Online Members Popup" data-popup-close-by-overlay="1" > <span class="avatars"></span> <span class="member-counter" data-vce="overflow-aware"></span> </div> </div> </section> <div class="community-livelayer-padding cloak"></div>  <aside class="community-sidebar" data-vce="sidebar-community" data-close-by-overlay="1"> <div class="content community-sidebar-container overflow-scroll-sidebar">  <section class="sidebar-card community-info sidebar-section user-canopy " data-vce="join-community"> <div class="sidebar-community-bg community-bg">  <img class="img-cover" src="//cm1.narvii.com/8229/cddd8be1a1d51c5760d4a6e7c0397b6a17d5da4f_375.jpg" alt="community background">  </div>  <div class="sidebar-profile-container"> <a class="block sidebar-community-info" href="https://aminoapps.com/c/baa/info/" data-refer-type="community_card" >  <div class="community-icon"> <img class="logo" src="//cm1.narvii.com/8228/5642938113dca2cfe197ad50665959cd4e61215e_120.jpg"> </div> <div class="basic-info"> <h1 class="title font-montserrat-black" data-vce="rich-content">Buscando Amistades Amino</h1> <div class="heat-gauge"> <div class="heat heat-6"></div> <div class="gauge"></div> <div class="gauge"></div> <div class="gauge"></div> <div class="gauge"></div> <div class="gauge"></div> <div class="gauge"></div> <div class="gauge"></div> <div class="gauge"></div> </div> <div class="member-count">  21,020 Members  </div> </div> </a> <p class="tagline">Buscando Amistades Amino</p> <button class="btn full-width pointer community-bg" data-vce="btn-join-community" data-vce-name="direct_join" data-event-label="community_card" data-source="Card Join Now" data-event-category="Join" data-ndc-id="196698407" > Join Now </button> <button class="btn button full-width pointer community-color pre-login-compose" data-vce="pre-login-btn" data-event-label="create_post" data-source="Card Create Post" data-true-form="user/compose-entry" data-success-redirect="" data-join-icons="//cm1.narvii.com/8228/5642938113dca2cfe197ad50665959cd4e61215e_120.jpg" data-join-motivation="create-post" data-login-motivation="Sign in to create a post." data-event-category="Join" data-ndc-id="196698407" > Create Post </button> </div>  </section> <!-- Implement desktop_wana_left --> <div style= "display:flex; justify-content:center; align-items: center; width:300px; min-height:600px;"> <section id="slot-left-aside" class="ad-block left" style="width:300px; min-height:250px;"></section> </div> <script type='text/javascript'>
+    document.addEventListener('ANAReady', () => {
+        if (window.slotLeftAside) {
+            return;
+        }
+
+        window.createSlot('slotLeftAside', 'slot-left-aside', '/114106652/amino_300x250_atf_desktop_2', [[300, 250], [300, 600]]);
+
+        window.ANAWeb.autoRefreshSlots([slotLeftAside], 15000, false)
+    });
+</script>  <section class="sidebar-card chatroom-sidebar" data-vce="sidebar-chat-list"> <h3 class="label community-color"> <i class="amino-icon amino-icon-reload j-reload"></i> Public Chatrooms </h3> <div class="chatroom-list-container simple-list"> </div> <div class="loading-overlay"> <i class="fa fa-spin fa-circle-o-notch community-color"></i> </div> </section> </div>  <div class="content" data-vce-name="sidebar_content" data-vce="sticky"></div>  </aside> <aside class="community-aside recommendation-sidebar"> <div class="content overflow-scroll-sidebar" data-vce="sticky" data-stick-bottom="1" data-top="67"> <div class="ad-block-container" style="display:flex; justify-content: center; align-items: center; width:300px; min-height:600px;"> <section class="ad-block" style="width:300px; min-height:250px;"> </section> </div> <script type='text/javascript'>
+    document.getElementsByClassName("ad-block-container")[0].children[0].id = 'slot-right-aside';
+
+    document.addEventListener('ANAReady', () => startWanaRight());
+
+    window.addEventListener("resize", () => startWanaRight());
+
+    const startWanaRight = () => {
+        if (window.innerWidth > 1206) {
+
+            if (window.slotRightAside) {
+                return;
+            }
+
+            window.createSlot('slotRightAside', 'slot-right-aside', '/114106652/amino_300x250_atf_desktop', [[300, 250], [300, 600]], true, 1207);
+            
+            if (false) {
+                window.scrollListener('ad-block-container', "slot-right-aside");
+            }
+        }
+    }
+
+
+</script>  <section class="popular"> <h3 class="label community-color with-margin">Featured Posts</h3> <section class="simple-list">   <article class="post mutual-block " >  <div class="cover">  <div class="full-wh loading" data-vce="fading-media">  <div class="cover community-bg"></div>  <img class="img-cover " alt="user uploaded image" data-vce="image" decoding="async" id="media-7b121aca" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pm1.narvii.com/8224/11ac931c4efcdf586981a20c5339ff07e2b33927r1-540-536v2_00.jpg"  >  </div>  </div> <a class="block content" href="https://aminoapps.com/c/baa/page/blog/buscando-amig-s-maybe-more/mop6_41EUkuXa8B0RYmMWGnPe15Bbd3o6e"  data-vce="rich-content" data-refer-type="sidebar_post_popular" > <section class="desc"> <h3 class="title"> Buscando Amig@s (Maybe More...)~ :sparkles:  :notes:  </h3>  </section> <footer class="actions"> <div class="action"> <i class="fa fa-heart"></i> <span class="num">31</span> </div> <div class="action"> <i class="amino-icon amino-icon-comment-splat"></i> <span class="num">1</span> </div> </footer> </a> </article>   <article class="post mutual-block " >  <div class="cover">  <div class="full-wh loading" data-vce="fading-media">  <div class="cover community-bg"></div>  <img class="img-cover " alt="user uploaded image" data-vce="image" decoding="async" id="media-203fd8b3" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pm1.narvii.com/8242/ef5c7c3003d03acf1fb397348050340133d3e2f6r1-308-1019v2_00.jpg"  >  </div>  </div> <a class="block content" href="https://aminoapps.com/c/baa/page/blog/hola/QKq8_13wHXulN5163VNDBPRnpXGqMe8X8kE"  data-vce="rich-content" data-refer-type="sidebar_post_popular" > <section class="desc"> <h3 class="title"> Hola </h3>  </section> <footer class="actions"> <div class="action"> <i class="fa fa-heart"></i> <span class="num">2</span> </div> <div class="action"> <i class="amino-icon amino-icon-comment-splat"></i> <span class="num">3</span> </div> </footer> </a> </article>   <article class="post mutual-block " >  <div class="cover">  <div class="img-cover community-bg"></div>  </div> <a class="block content" href="https://aminoapps.com/c/baa/page/blog/hola/L27E_3Wwi8uYljp0G88xkNnKQdbwewvkz85"  data-vce="rich-content" data-refer-type="sidebar_post_popular" > <section class="desc"> <h3 class="title"> hola </h3>  </section> <footer class="actions"> <div class="action"> <i class="fa fa-heart"></i> <span class="num">4</span> </div> <div class="action"> <i class="amino-icon amino-icon-comment-splat"></i> <span class="num">0</span> </div> </footer> </a> </article>  </section> <a href="/c/baa/" class="more linkblue block" data-refer-type="sidebar_post_more"> See more </a> </section>  <section class="leader-pick"> <h3 class="label community-color with-margin">More Communities</h3> <div data-vce="carousel" data-height="176" data-arrow-offset="-26"> <div class="community-bg arrow arrow-left"> <i class="fa fa-chevron-left"></i> </div> <div class="community-bg arrow arrow-right"> <i class="fa fa-chevron-right"></i> </div> <div class="scroll-container" data-vce="rich-content">  <a href="https://aminoapps.com/c/MasAllaDelmisterio/" class="block carousel-item" data-refer-type="sidebar_community"> <div class="community-card"> <img class="community-icon" data-vce="image" data-src="//cm1.narvii.com/8252/8935de33717fba7f382376c2e134ff99d5efca4b_120.jpg">  <img class="background" data-vce="image" data-src="//cm1.narvii.com/6775/f5644873a8a8bf8302b9da75bd7f29759d04af83_375.jpg">  </div> <div class="name">⛦☽Mas Alla Del Misterio☾⛧</div> </a>  <a href="https://aminoapps.com/c/AminoMembers/" class="block carousel-item" data-refer-type="sidebar_community"> <div class="community-card"> <img class="community-icon" data-vce="image" data-src="//cm1.narvii.com/8018/66b87cc6f0894003b3ce0472385f66857d9c6dd3_120.jpg">  <img class="background" data-vce="image" data-src="//cm1.narvii.com/7473/a15458843bc7a05f652947852cf488ec16a895ec_375.jpg">  </div> <div class="name">Amino Members</div> </a>  <a href="https://aminoapps.com/c/Clash_kingdom1/" class="block carousel-item" data-refer-type="sidebar_community"> <div class="community-card"> <img class="community-icon" data-vce="image" data-src="//cm1.narvii.com/8178/f6f136e96cdc6d26a0cbca88a51d75ae7b07ff4e_120.jpg">  <img class="background" data-vce="image" data-src="//cm1.narvii.com/8179/b11ae6925ddeab4c67cb568c8bab519e2b379678_375.jpg">  </div> <div class="name">مملكة كلاش</div> </a>  </div> </div> </section>  <section class="popular"> <h3 class="label community-color with-margin">Popular Wiki Entries</h3> <section class="simple-list">   <article class="post mutual-block " >  <a class="block cover item" href="https://aminoapps.com/c/baa/page/item/the-last-of-us/V0ba_m7wFvI5veVY5azB45ZB2ze7NWMav78"  data-vce="rich-content" data-refer-type="sidebar_wiki_related" > <div class="cover-img loading" data-vce="fading-media">  <div class="cover community-bg"></div>  <img class="img-cover " alt="user uploaded image" data-vce="image" decoding="async" id="media-76ff2231" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pm1.narvii.com/6377/9ba7b025ad3d415ce88c88b52f590e61a88d0d74_00.jpg"  >  </div> <div class="overlay">  <img class="img-cover item-curated item-icon" alt="user uploaded image" data-vce="image" decoding="async" id="media-d20f09ff" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pa1.narvii.com/6377/2ee22417b2fa9405cf82df4217814119283d75ea_00.gif"  >  <div class="remain overflow-hidden"> <h3 class="title">The last of Us</h3> <div class="counters"> <span class="counter"> <i class="fa fa-heart"></i> <span class="num">21</span> </span> <span class="counter"> <i class="amino-icon amino-icon-comment-splat"></i> <span class="num">2</span> </span> </div> </div> </div> </a> </article>   <article class="post mutual-block " >  <a class="block cover item" href="https://aminoapps.com/c/baa/page/item/rr/V0ba_m7wFvI45xYvP83QNjln2lpnqBEJLm4"  data-vce="rich-content" data-refer-type="sidebar_wiki_related" > <div class="cover-img loading" data-vce="fading-media">  <div class="cover community-bg"></div>  <img class="img-cover " alt="user uploaded image" data-vce="image" decoding="async" id="media-e4ef83db" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pm1.narvii.com/8224/5d811ae352806144cd819860c177f0881ee733f5r1-512-512v2_00.jpg"  >  </div> <div class="overlay">  <img class="img-cover item-icon" alt="user uploaded image" data-vce="image" decoding="async" id="media-e4ef83db" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pm1.narvii.com/8224/5d811ae352806144cd819860c177f0881ee733f5r1-512-512v2_00.jpg"  >  <div class="remain overflow-hidden"> <h3 class="title">ᶜᵃʳᵗᵉʳⁱᵗᵃ</h3> <div class="counters"> <span class="counter"> <i class="fa fa-heart"></i> <span class="num">13</span> </span> <span class="counter"> <i class="amino-icon amino-icon-comment-splat"></i> <span class="num">2</span> </span> </div> </div> </div> </a> </article>   <article class="post mutual-block " >  <a class="block cover item" href="https://aminoapps.com/c/baa/page/item/pickle/vdwE_JZMiWI1KjlEeE1LooxVdp35EqmKPQG"  data-vce="rich-content" data-refer-type="sidebar_wiki_related" > <div class="cover-img loading" data-vce="fading-media">  <div class="cover community-bg"></div>  <img class="img-cover " alt="user uploaded image" data-vce="image" decoding="async" id="media-308d1a47" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pm1.narvii.com/8224/986259a51fbf961d342ee47988ec86f3e20153fbr5-570-750_00.jpg"  >  </div> <div class="overlay">  <img class="img-cover item-icon" alt="user uploaded image" data-vce="image" decoding="async" id="media-454dce2a" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pm1.narvii.com/8224/bb09abdc5c2571ff57df648d98f742456f70727er1-854-1064v2_00.jpg"  >  <div class="remain overflow-hidden"> <h3 class="title">Pickle</h3> <div class="counters"> <span class="counter"> <i class="fa fa-heart"></i> <span class="num">8</span> </span> <span class="counter"> <i class="amino-icon amino-icon-comment-splat"></i> <span class="num">4</span> </span> </div> </div> </div> </a> </article>  </section> <a href="/c/baa/wiki/" data-refer-type="sidebar_wiki_more" class="more linkblue block"> See more </a> </section>  <section class="gallery"> <h3 class="label community-color with-margin">Shared Folder</h3> <div data-vce="carousel" data-height="140" data-arrow-offset="-5"> <div class="community-bg arrow arrow-left"> <i class="fa fa-chevron-left"></i> </div> <div class="community-bg arrow arrow-right"> <i class="fa fa-chevron-right"></i> </div> <div class="scroll-container">  <article class="album carousel-item">  <div class="album-cover loading" data-vce="fading-media"> <div class="cover community-bg"></div>  <img class="img-cover " alt="user uploaded image" data-vce="image" decoding="async" id="media-15830b82" src="//wa1.narvii.com/static/img/lazy.png" data-src="//pv1.narvii.com/uploaded_cover/8005/ef4c6bc4ad595a2d4ba929bf056d972053b14ee0r2-576-1024_00.jpg"  >  </div>  <a class="block content" data-refer-type="sidebar_gallery_content" href="https://aminoapps.com/c/baa/page/shared-folder/blake/7eVY_xkJuN1TwBGBDm7oRxBRW04bmawxlbk"> <div class="like"> <i class="amino-icon amino-icon-heart"></i> 397 </div> <div class="title" data-vce="rich-content"> Blake </div> <div class="count"> 168 Photos </div> </a> </article>  <article class="album carousel-item">  <div class="album-cover loading" data-vce="fading-media"> <div class="cover community-bg"></div>  <img class="img-cover " alt="user uploaded image" data-vce="image" decoding="async" id="media-e118e848" src="//wa1.narvii.com/static/img/lazy.png" data-src="//sm1.narvii.com/7246/1415e6ea8fa45519797f97a4abacfe1f607b6453r2-640-672v2_00.jpg?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL3NtMS5uYXJ2aWkuY29tLzcyNDYvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY1MDM0NzQ2Nn19fV19&Signature=ezmYlXFEz9yw9NEY2V4hX7snjs68HJdjI-a6zh8oWMrnj6QF4OD-ON1Gwc4MKq~cpdjlQ5pPzMewGyqeYoIuQQRMmWBpzosvZIE~YQOtbe0Yqb~cPLG9mHeQVeqpmyngn732r5QKFTR0GLu1OkjS3eVGl61r4gNHGGr2Cr99~Eg_&Key-Pair-Id=APKAICUDKLX2XOCDJKNA"  >  </div>  <a class="block content" data-refer-type="sidebar_gallery_content" href="https://aminoapps.com/c/baa/page/shared-folder/by-ih-l/z6kq_1xYSwDCDEVNLNjRv0aVm00dqEV6qge"> <div class="like"> <i class="amino-icon amino-icon-heart"></i> 249 </div> <div class="title" data-vce="rich-content"> ʙᴏʏ ᴡɪᴛʜ ʟᴜᴠ ♡ </div> <div class="count"> 44 Photos </div> </a> </article>  <article class="album carousel-item">  <div class="album-cover loading" data-vce="fading-media"> <div class="cover community-bg"></div>  <img class="img-cover " alt="user uploaded image" data-vce="image" decoding="async" id="media-2d156035" src="//wa1.narvii.com/static/img/lazy.png" data-src="//sm1.narvii.com/6932/ef29ccb3bff3cb91f52dc622db2abaf95555a027r2-712-1123v2_00.jpg?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL3NtMS5uYXJ2aWkuY29tLzY5MzIvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY1MDM0NzQ4NX19fV19&Signature=dWa-Y1FE0kLXiqr1lvq5IP0e2rdI89OLOTcj~~dIHyD2cmI8WfDR1Ar1yxJ754r3mNA4xV3kJSgUuK8fljSXl9asEeiW1qf8tKy76ZWm0Uq9acGYdOI2~fJu2LkdkX0-rqIjllCnvwLnMD4M2x4IdkYnqSBSD0pwdkC5euWcN44_&Key-Pair-Id=APKAICUDKLX2XOCDJKNA"  >  </div>  <a class="block content" data-refer-type="sidebar_gallery_content" href="https://aminoapps.com/c/baa/page/shared-folder/reacciona-como-la-diosa-aqua/g0am_b7vFKnIGqmJ876GD3QxKk3mL4VLQYDx"> <div class="like"> <i class="amino-icon amino-icon-heart"></i> 125 </div> <div class="title" data-vce="rich-content"> Reacciona como la diosa aqua </div> <div class="count"> 92 Photos </div> </a> </article>  <article class="album carousel-item">  <div class="album-cover loading" data-vce="fading-media"> <div class="cover community-bg"></div>  <img class="img-cover " alt="user uploaded image" data-vce="image" decoding="async" id="media-fde27e28" src="//wa1.narvii.com/static/img/lazy.png" data-src="//sm1.narvii.com/8040/9e31dce62de0b34e58b6a3ac1968bcd1bc00ab12r2-720-462v2_00.jpg?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL3NtMS5uYXJ2aWkuY29tLzgwNDAvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY1MDM2MzcwMn19fV19&Signature=mPflOMnjnX1afbrMEfs5qtmcFSB7Jk2SP8lwuwA5Sr5cZZaPbG9o8Lmc1vAUXJHJ~9420OK0kHZHve9e4sEnbq5FNOsQxK0nJ3Gy-F8duHfw3Qprw0naFnswkaE4HmAJiLAPbb2LKWcv0jd-dwFNOnsIKuz1389Wi23Qm7wFUbg_&Key-Pair-Id=APKAICUDKLX2XOCDJKNA"  >  </div>  <a class="block content" data-refer-type="sidebar_gallery_content" href="https://aminoapps.com/c/baa/page/shared-folder/imagenes-random/qkw3_o65F3pIBx5W8q7vbeW85zNkkLE7Ggr4"> <div class="like"> <i class="amino-icon amino-icon-heart"></i> 76 </div> <div class="title" data-vce="rich-content"> Imágenes Random </div> <div class="count"> 30 Photos </div> </a> </article>  <article class="album carousel-item">  <div class="album-cover loading" data-vce="fading-media"> <div class="cover community-bg"></div>  <img class="img-cover " alt="user uploaded image" data-vce="image" decoding="async" id="media-630444a8" src="//wa1.narvii.com/static/img/lazy.png" data-src="//sm1.narvii.com/8000/85c14340339f990601386a419f350685ea003019r2-720-711v2_00.jpg?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL3NtMS5uYXJ2aWkuY29tLzgwMDAvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY1MDM0NzUyNX19fV19&Signature=V0XDtg9qsPVXvll87lXMG7o8S8dZDyZiRoghc~-ABfglNHmVrYVTOqMog4xFvyULb5Mlb2EF36~jmLU1i-fRf07Bz-32yyjwSlX5DeMDe5FE1Qbru0fkA6HdSjRzlp606Ew4Zau5QEC43adbmRL7AiRWndF-G44asdfww1xNBII_&Key-Pair-Id=APKAICUDKLX2XOCDJKNA"  >  </div>  <a class="block content" data-refer-type="sidebar_gallery_content" href="https://aminoapps.com/c/baa/page/shared-folder/momos-blake-corporation/d3RD_X7MsaZCmngZPeodZ2EaZxmln6wgqn6M"> <div class="like"> <i class="amino-icon amino-icon-heart"></i> 69 </div> <div class="title" data-vce="rich-content"> MOMOS BLAKE CORPORATION </div> <div class="count"> 13 Photos </div> </a> </article>  <article class="album carousel-item">  <div class="album-cover loading" data-vce="fading-media"> <div class="cover community-bg"></div>  <img class="img-cover " alt="user uploaded image" data-vce="image" decoding="async" id="media-adfa2ee5" src="//wa1.narvii.com/static/img/lazy.png" data-src="//sm1.narvii.com/7187/f978af3f83f817b077a1fc0234dfe1018acdc17ar2-417-512v2_00.jpg?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL3NtMS5uYXJ2aWkuY29tLzcxODcvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY1MDM0NzAyMX19fV19&Signature=Ey514BA1r1w0vxBtxLu1Y~1IaHQ-phi94TmR31xx16qA-M4r~nXhQf2YaN4TGl8AfJAMd33ccaU-FHF2gW66DS~ZUUsmMDCjRQXFB3Sgg5jdzLA~jCdqjBjmA0j8LsxeVIdOX-fNvNXEzrFjjI19-2g3Y3U1DlSH4L0Q0X4H~X4_&Key-Pair-Id=APKAICUDKLX2XOCDJKNA"  >  </div>  <a class="block content" data-refer-type="sidebar_gallery_content" href="https://aminoapps.com/c/baa/page/shared-folder/brigitte-grey/WJ2K_DkwuV7S8dYvzrPk6V2bD2jRd1GkrL5"> <div class="like"> <i class="amino-icon amino-icon-heart"></i> 33 </div> <div class="title" data-vce="rich-content"> Brigitte Grey </div> <div class="count"> 15 Photos </div> </a> </article>  <article class="album carousel-item">  <div class="album-cover loading" data-vce="fading-media"> <div class="cover community-bg"></div>  <img class="img-cover " alt="user uploaded image" data-vce="image" decoding="async" id="media-a9d6ab67" src="//wa1.narvii.com/static/img/lazy.png" data-src="//sm1.narvii.com/7138/5e1cc938eeb46b62b0b78e54c6e6e4d5bfda0a85r2-480-854v2_00.jpg?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL3NtMS5uYXJ2aWkuY29tLzcxMzgvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY1MDM0NzU3MH19fV19&Signature=GvUmkP1lKj8va-GqSJEFi1Op~CIlerLtACv-LsubUzMsJDatqK1QJnOKOrbQ00uMzeuh5EO0uAaCntRbD6ZR~ax2Irt-6s9NSPQowJL0~Dn~THiuQqF28AhoM0eaC0g~uMd2J3aIK~yud0D-~yxuTUSzOu1-~weZCyGnON3BNt4_&Key-Pair-Id=APKAICUDKLX2XOCDJKNA"  >  </div>  <a class="block content" data-refer-type="sidebar_gallery_content" href="https://aminoapps.com/c/baa/page/shared-folder/b-a-a/WJ2K_DkwuV7Sk76aEvNQ1rjkp07bYX2kYLRw"> <div class="like"> <i class="amino-icon amino-icon-heart"></i> 27 </div> <div class="title" data-vce="rich-content"> B.A.A </div> <div class="count"> 6 Photos </div> </a> </article>  <article class="album carousel-item">  <div class="album-cover loading" data-vce="fading-media"> <div class="cover community-bg"></div>  <img class="img-cover " alt="user uploaded image" data-vce="image" decoding="async" id="media-fada6a72" src="//wa1.narvii.com/static/img/lazy.png" data-src="//sm1.narvii.com/7340/afd9b468be7332ff2713821e56c974039a2314b2r2-1080-1920v2_00.jpg?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL3NtMS5uYXJ2aWkuY29tLzczNDAvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY1MDM1ODM4NX19fV19&Signature=QUpHFkNodX8ZjpTOhocBTGBZu4KfGjOP~guDpMzuPaY8~gbQo0AQ0ZZuUs7Ly4jUX8nfTpMI-tvpxl~raRzX8I613Bqfiy0kIJPGEZq9ShWi8PO1oFKSYmpIvvNDBhbQ72ujq0o0oxReyHl9oMveaKTAN4qy~ClxX5T3p-dMnVE_&Key-Pair-Id=APKAICUDKLX2XOCDJKNA"  >  </div>  <a class="block content" data-refer-type="sidebar_gallery_content" href="https://aminoapps.com/c/baa/page/shared-folder/xd/06MX_dvlSZ2uJRVGGpeP8rL3oKx6pRBgPGkK"> <div class="like"> <i class="amino-icon amino-icon-heart"></i> 20 </div> <div class="title" data-vce="rich-content"> XD </div> <div class="count"> 9 Photos </div> </a> </article>  <a class="carousel-item more-icon community-bg block" href="/c/baa/shared-folder/" data-refer-type="sidebar_gallery_more_icon"> <i class="amino-icon amino-icon-folder "></i> <div class="label">See more</div> </a> </div> </div> <a href="/c/baa/shared-folder/" data-refer-type="sidebar_gallery_more" class="more linkblue block"> See more </a> </section>  </div> </aside> <a id="call2action-interested" class="disp_none" data-vce="btn-popup" data-popup="join-community" data-popup-icons="//pm1.narvii.com/8260/eeea52445f2b95f934fdfe92d97d9d7bf696babbr1-472-402v2_128.jpg" data-popup-motivation="proactive" data-popup-tea-source="Proactive Popup"  data-popup-close-by-overlay="1"  ></a> </section>
+
+
+
+<div class="modal" data-true-form="modal">
+    <div class="overlay"></div>
+    <div class="content"></div>
+    <div class="swipe-indicator swipe-indicator-left">
+        <i class="fa fa-arrow-circle-left fa-3x"></i>
+    </div>
+    <div class="swipe-indicator swipe-indicator-right">
+        <i class="fa fa-arrow-circle-right fa-3x"></i>
+    </div>
+</div>
+
+<div class="back-top">
+    <a class="content block pointer">
+        <i class="fa fa-arrow-up fa-2x"></i>
+    </a>
+</div>
+
+<div data-vce="toast">
+    <div class="content">
+    </div>
+</div>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:900&display=swap">
+<link rel="stylesheet" href="//wa1.narvii.com/static/dist/css/font-awesome.55097e0bd.css">
+<script>
+var s = window.ServerData;
+s.eventLabel = 'page_v2.user-profile.index';
+s.hostUrl = "https://aminoapps.com";
+s.serverName = "aminoapps.com";
+s.referType = "";
+s.facebookClientId = "255884441431980";
+s.googleClientId = "965888619343-p4j7tjogbsffi3u5l1tidk8jlb3s8idb.apps.googleusercontent.com";
+s.recaptchaKey = "6Ldl_kwUAAAAAB3HCpbAKU-rwUPXZaxeH7ADEOSC";
+s.recaptchaV3Key = "6LfDlpUUAAAAAP3ZSaPBbpOeO1w12Fsv7WeY5cqw";
+s.language = "en"
+s.assetURLPrefix = "//wa1.narvii.com/static"
+window._ = function (text) { return window._.dict[text] || text; };
+window._.dict = {"Are you sure you want to leave this Community?": "Are you sure you want to leave this Community?", "Copied": "Copied", "Enjoy your experience in Amino Community? Get the app and join us!": "Enjoy your experience in Amino Community? Get the app and join us!", "Exclusive Posts": "Exclusive Posts", "Fan Status": "Fan Status", "Flag for Review": "Flag for Review", "Get App": "Get App", "Got any thoughts on my post?": "Got any thoughts on my post?", "Got it": "Got it", "I\u0027d love to hear your voice! Get the Amino app!": "I\u0027d love to hear your voice! Get the Amino app!", "Interested in my post? Join this Community and let\u0027s talk!": "Interested in my post? Join this Community and let\u0027s talk!", "Join": "Join", "Join Now": "Join Now", "Join this Community and leave a comment!": "Join this Community and leave a comment!", "Join this Community and let\u0027s talk!": "Join this Community and let\u0027s talk!", "Join this Community to hang out with all of us [community_name] members": "Join this Community to hang out with all of us [community_name] members", "Join this Community to read my full comment!": "Join this Community to read my full comment!", "Join this Community to see all our comments!": "Join this Community to see all our comments!", "Keep up with members you follow in this Community": "Keep up with members you follow in this Community", "Let\u0027s talk about it on Amino.": "Let\u0027s talk about it on Amino.", "Loading": "Loading", "Member Chats": "Member Chats", "Oh, you like my comment?": "Oh, you like my comment?", "Oh, you like my post?": "Oh, you like my post?", "Oh, you like my wiki?": "Oh, you like my wiki?", "Only members of this Community have the right to vote.": "Only members of this Community have the right to vote.", "Open in App": "Open in App", "Put it somewhere people will see it.": "Put it somewhere people will see it.", "Reply to:": "Reply to:", "Share this post": "Share this post", "Sign in to join this Community.": "Sign in to join this Community.", "Sign in to leave a comment.": "Sign in to leave a comment.", "Sign in to read more replies.": "Sign in to read more replies.", "Sign in to read the whole comment.": "Sign in to read the whole comment.", "Sign in to see all comments.": "Sign in to see all comments.", "Something to say?": "Something to say?", "Something to share? Join this Community to create a post.": "Something to share? Join this Community to create a post.", "There\u0027s all sorts of good stuff happening in this fan club.": "There\u0027s all sorts of good stuff happening in this fan club.", "This Community is full of great stuff. Get the app to see it all.": "This Community is full of great stuff. Get the app to see it all.", "This Fan Club is closed.": "This Fan Club is closed.", "This chat is for Community members only.": "This chat is for Community members only.", "Yes": "Yes", "You can only comment if you join this Community.": "You can only comment if you join this Community.", "You can only follow me if you get the Amino app. Do it do it do it.": "You can only follow me if you get the Amino app. Do it do it do it.", "You can only follow me if you join this Community.": "You can only follow me if you join this Community.", "You can only join my fan club on the Amino app. Do it do it.": "You can only join my fan club on the Amino app. Do it do it.", "You can renew your subscription on the Amino app.": "You can renew your subscription on the Amino app.", "You need to get the Amino app to join my Community. See you there!": "You need to get the Amino app to join my Community. See you there!", "You need to get the Amino app to start chating with us.": "You need to get the Amino app to start chating with us.", "You need to join this Community first!": "You need to join this Community first!", "You need to join this Community to start chatting with us.": "You need to join this Community to start chatting with us.", "[member_count] member online": "[member_count] member online", "[member_count] members online": "[member_count] members online", "[nickname] is now online": "[nickname] is now online", "[nickname] just joined": "[nickname] just joined"};
+s.isLogin = false;
+s.isMember = false;
+</script>
+
+<script>
+    ServerData.deeplink = "narviiapp://x196698407/description";
+    ServerData.community = {"Android": "https://aminoapps.com/jump/store?id=com.narvii.amino.master", "color": [39, 121, 217, 1.0], "deeplink": "narviiapp://x196698407/description", "endpoint": "BAA", "iOS": "/jump/store?target=ios", "isPrivate": false, "linkDownload": "/c/baa/download/", "logo": "//cm1.narvii.com/8228/5642938113dca2cfe197ad50665959cd4e61215e_120.jpg", "membersCount": 21020, "name": "Buscando Amistades Amino", "ndcId": "x196698407", "tagline": "Buscando Amistades Amino"};
+    ServerData.experiments = {"ab_proactive_download_popup_ciw": "0", "ab_proactive_download_popup_delay": "60"};
+        ServerData.members = {"onlineMembersCount": 2, "onlineMembersList": [{"createdTime": "2022-03-13T22:55:12Z", "icon": "//pm1.narvii.com/8247/dd5eebb2cb38c75b2e01c55b901d6067237cade6r1-578-578v2_00.jpg", "nickname": "R.", "uid": "713503f4-79be-4a12-8be3-42872bd60975"}, {"createdTime": "2022-04-19T04:18:45Z", "icon": "//pm1.narvii.com/8264/dc89cd4ad80c93e22f17464c0e32c06f97a195fbr1-400-400v2_00.jpg", "nickname": "\u1a33\u192a\u0361Cier", "uid": "bfca7cb1-6e1c-45cd-b5c6-467eb4a3233c"}]};
+        ServerData.community.listedStatus = 2
+        ServerData.community.templateId = 3
+</script> 
+
+<!-- Google and TEA Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55669232-10', 'auto', {'useAmpClientId': true});
+  ga('create', 'UA-55669232-5', 'auto', 'sampling', {'useAmpClientId': true, sampleRate: 5});
+  ga('set', 'transport', 'beacon');
+  ga('sampling.set', 'transport', 'beacon');
+  ga('set', 'dimension4', 'no');
+  ga('sampling.set', 'dimension4', 'no');
+  ga('set', 'dimension6', location.href.split(/:/)[0]);
+  ga('sampling.set', 'dimension6', location.href.split(/:/)[0]);
+
+</script> <script class="ga_variables">        ga('set', 'dimension2', "page_v2?amino_id=baa\u0026page_type=page\u0026slug=user%2Faradia%2FBQGW_MkoHbfd7DdpnENR6NkMGrdgjLMgYj5t1");
+        ga('sampling.set', 'dimension2', "page_v2?amino_id=baa\u0026page_type=page\u0026slug=user%2Faradia%2FBQGW_MkoHbfd7DdpnENR6NkMGrdgjLMgYj5t1");
+    ga('set', 'dimension5', 'page_v2.user-profile.index');
+    ga('sampling.set', 'dimension5', 'page_v2.user-profile.index');
+    ga('set', 'dimension7', "");
+    ga('sampling.set', 'dimension7', "");
+    ga('set', 'dimension9', false);
+    ga('sampling.set', 'dimension9', false);
+</script> <script async src="https://s0.ipstatp.com/static_magic/pgc/tech/collect/collect-v.3.1.32.js"></script> <script>
+(function(window, document, export_obj) {
+    var win = window;
+    win['TeaAnalyticsObject'] = export_obj;
+    if (!win[export_obj]) {
+        function _collect() { _collect.q.push(arguments); return _collect; }
+        _collect.q = _collect.q || [];
+        win[export_obj] = _collect;
+    }
+    window[export_obj].l = +new Date();
+})(window, document, 'collectEvent');
+window.collectEvent('init', { app_id: 151083, channel: 'va' });
+var tea_config = {"ab_proactive_download_popup_ciw": "0", "ab_proactive_download_popup_delay": "60", "app_name": "amino", "client_type": "Web", "disable_auto_pv": true, "evtParams": {"app_type": "Web", "community_id": 196698407}, "installed_web": "True", "login_status": "False", "referer": null, "referer_host": null, "user_unique_id": ""};
+tea_config.evtParams.page_source = ServerData.eventLabel;
+window.collectEvent('config', tea_config);
+window.collectTEA = function(evt, obj) { obj = obj || {}; window.collectEvent(evt, obj); };
+window.collectEvent('send');
+window.collectEvent('predefinePageView', { refer_type: "" });
+function sendPageView() {
+    ga('set', 'location', location.href);
+    ga('sampling.set', 'location', location.href);
+    ga('send', 'pageview');
+    ga('sampling.send', 'pageview');
+}
+sendPageView();
+</script> 
+<script src="//wa1.narvii.com/static/dist/js/main.5c7311889.js"></script>
+<div id="gdpr-cookie-consent"> <h3>Cookie Policy </h3> <p>  This website saves cookies to your browser in order to improve your online experience and show you personalized content. Read our <a class="link" href="http://narvii.com/privacy" target="_blank">Privacy Policy</a> and <a class="link" href="https://support.aminoapps.com/hc/en-us/articles/360004040313-Does-Amino-use-cookies-on-its-website-" target="_blank">Cookie Policy</a> to get more information and learn how to set up your preferences. </p> <button class="confirm-close" onclick="closeGDPRCookie()">Accept</button> </div> <script>
+function closeGDPRCookie() {
+    document.cookie = 'gdpr_cookie_agreee=1;max-age=31536000;path=/';
+    var consent = document.querySelector('#gdpr-cookie-consent');
+    consent.parentNode.removeChild(consent);
+}
+</script> <style>
+#gdpr-cookie-consent {
+    position: fixed;
+    padding: 14px;
+    font-size: 13px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    bottom: 8px;
+    right: 87px;
+    max-width: 410px;
+    color: #1a1a1a;
+    z-index: 5005;
+    /*1145141919810;
+    $z-global-modal: 5010;
+    */
+}
+#gdpr-cookie-consent > h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 19px;
+}
+#gdpr-cookie-consent .close {
+    float: right;
+    color: #bdbdbd;
+    font-size: 20px;
+    line-height: 16px;
+}
+#gdpr-cookie-consent .link {
+    color: #0F86FF;
+}
+#gdpr-cookie-consent > p {
+    margin: 0;
+    margin-top: 8px;
+    line-height: 15px;
+}
+#gdpr-cookie-consent > .confirm-close {
+    background: none;
+    border: 1px solid #979797;
+    outline: none;
+    border-radius: 8px;
+    float: right;
+    padding: 8px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.not-mobile #gdpr-cookie-consent > .confirm-close:hover {
+    background: #f1f1f1;
+}
+@media (max-width: 640px) {
+#gdpr-cookie-consent {
+    left: 0;
+    right: -1px;
+    bottom: 0;
+    border-radius: 0;
+    max-width: none;
+}
+}
+</style> 
+</body>
+<footer>
+  <!-- Quantcast Tag --> <script type="text/javascript">
+    var _qevents = _qevents || [];
+    (function() {
+    var elem = document.createElement('script');
+    elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+    elem.async = true;
+    elem.type = "text/javascript";
+    var scpt = document.getElementsByTagName('script')[0];
+    scpt.parentNode.insertBefore(elem, scpt);
+    })();
+    _qevents.push({
+    qacct: "p-3bDtRer0SSNWT",
+    uid: "ops@medialab.la"
+    });
+</script> <noscript>
+    <div style="display:none;">
+    <img src="//pixel.quantserve.com/pixel/p-3bDtRer0SSNWT.gif" border="0" height="1" width="1" alt="Quantcast"/>
+    </div>
+</noscript> <!-- The core Firebase JS SDK is always required and must be listed first --> <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script> <!-- TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries --> <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-analytics.js"></script> <script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDUbgzJwO1Fd5oawjcV3x8HkWGHET-Ky8Q",
+    authDomain: "golden-shine-845.firebaseapp.com",
+    databaseURL: "https://golden-shine-845.firebaseio.com",
+    projectId: "golden-shine-845",
+    storageBucket: "golden-shine-845.appspot.com",
+    messagingSenderId: "641940763521",
+    appId: "1:641940763521:web:26ac22ae145b37182d6e80",
+    measurementId: "G-9SJ4LCCH1X"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script> </footer>
+</html>
